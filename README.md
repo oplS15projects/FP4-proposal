@@ -47,25 +47,25 @@ Your team will have two minutes to present. Create presentation with two or thre
 
 ### Deliverable and Demonstration
 
-* The program will be able to take a bottlenose assignment file, convert it into a test suite, and then make a test-running script for that suite.
-* In addition to Bottlenose tests, the program is capable of running any RackUnit test provided by the user.
-* The program will present to the user a GUI showing the test result, as well as a file containing the results for the test suite.
-* The program will provide an interface to schedule a test to be run automatically with specified test-running script. This feature is targeted mainly for regression testing of a project involving multiple developers.
-* The program will present an interface to configure an email database associated with each test, which will be used to send out a scheduled test result upon the user's request.
+* The program `Bottle-Racket` is a GUI that will be able to take a bottlenose assignment file and convert it into a test suite file that is also specified in a generated test area file. Then `Test-Capture` is a GUI used to make a test-running script for that test area file which specifies the test suite to run.
+* In addition to Bottlenose tests, the project will be capable of running a properly formatted RackUnit test area with a test suite provided by the user.
+* The project will provide a file containing the results for the test area, and this file can be sent as an email to the development team.
+* The project will provide `Scheduler`, a GUI to schedule a test area to be run automatically with a specified test-running script. This feature is targeted mainly for regression testing of a project involving multiple developers.
+* The project will provide `QA-Email`, a GUI to configure an email database associated with each test area, which will be used to send out a scheduled test result upon the user's request.
 * Racket-Doc will be able to look through properly formatted Racket code and display it nicely in a web browser (James needs to elaborate on this one)
 
 ### Evaluation of Results
 
 - Bottle-Racket will be able to convert a variety of the assignment Perl test case files.
-- Scheduler will be able to successfully run test-running scripts in consistent intervals, even when mailing list associated with the test is updated between consecutive test run-ups and when the source code tested is changed.
-- Email module will be able to detect when a user enters an incorrect email address or when a database stored in the user's storage is currupted between the program run-ups, and notify the user of the invalid entries.
-
-
+- Scheduler will be able to successfully run test-running scripts in consistent intervals, even when the mailing list associated with the test area is updated between consecutive test run-ups and when the source code tested is changed.
+- Email module will be able to detect when a user enters an incorrect email address or when a database stored in the user's storage is corrupted between the program run-ups, and notify the user of the invalid entries.
 - Racket-Doc, need James's input on this
 
 ## Work Plan and Schedule
 
-An excel spreadsheet representing a calendar will be used as a planner.
+An excel spreadsheet representing a calendar will be used as a planner. Some things to consider:
+* Scheduler will be implemented in the Second Milestone.
+* The user doesn't need to specify if the test area loads in a Bottlenose test suite. We already assume the QA Engineer knows how to create test suites and test areas, we are just using Bottlenose tests as the suites. The key is to have properly formatted test area files, and any kind of suite can be run.
 
 First Milestone (04-13)
 * Bottle-Racket will be able to convert the first 3 assignments along with freds-db (that one requires loading in definitions from another file).
@@ -74,15 +74,16 @@ First Milestone (04-13)
 * User interface and file database for managing and storing mailing lists, as well as sending emails with a test result will be fully functional.
 
 Second Milestone (04-21)
+* Racket-Doc, maybe some additional features or was only partially complete in First Milestone?
 * The program will be able to run both Bottlenose test and other RackUnit test upon users' choice.
 * User interface for selecting between a Bottlenose test and other Racket test will be available.
 * Test scheduler will be created and tested with capability to send emails automatically after the scheduled test run-up.
 
 ## Group Responsibilities
 
-* Roy will work on Bottle-Racket and Test-Capture. Testing of other team members' code to see their progress, and have some involvement with Address Book and Scheduler.
-* Yong will work on test scheduler and email components, and possibly creating a UI for configuring and executing non-Bottlenose tests (it is not clear at this point whether a separate UI will be needed for non-Bottlenose tests).
-* James will work on Racket-Doc
+* Roy will work on `Bottle-Racket` and `Test-Capture`. Testing of other team members' code to see their progress, and have some involvement with Address Book and Scheduler.
+* Yong will work on test scheduler `Scheduler`, and email component `QA-Email`.
+* James will work on Racket-Doc.
 
 ## Proposal Presentation Link
 insert your google presentation public link here, so with one click it will open up in the browser and you can present.
