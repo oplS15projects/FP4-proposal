@@ -21,7 +21,7 @@ Your team will have two minutes to present. Create presentation with two or thre
 
 (Template follows. You may delete this line and all above it. Please edit the following template to create your report.)
 
-# Project Title: title here (10 words maximum)
+# Project Title: Photobench
 ### Problem Statement
 Describe your problem, and why it is interesting. 
 
@@ -67,10 +67,10 @@ What exactly will be turned in on this day?
 ## Group Responsibilities
 Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
 
-### Susan Scheme
-will write the....
+### Nathan Goss
+Will be creating the backend of the project, namely the procedures for each tool that will be in the GUI. These procedures will include white balance adjustment, red-eye correction, simple drawing tools, gamma level adjustment, (de)saturation, and more. For milestone one, I will have implemented the procedures to handle the loading and displaying of the desired image. For milestone two, I will have implemented the level-correction procedures (RGB, white balance, gamma, saturation). For the final deliverable, I will have implemented the drawing tools (paintbrush, eraser, etc.).
 
-### Leonard Lambda
+### Eric Wang
 will work on...
 
 ## Proposal Presentation Link
