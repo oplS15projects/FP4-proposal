@@ -27,7 +27,6 @@ Describe your problem, and why it is interesting.
 
 ### Problem Analysis
 * We plan to make different lays of abstraction so that the code can be very easily build on.
-
 * We also plan to build objects that allow us to link are key words to there perspective procedure.
 
 ### Data set or other source materials
@@ -37,7 +36,6 @@ run time.
 ### Deliverable and Demonstration
 * At the end of the project we will a afully functional easy to use gui that allows the used to enter math 
 expressions to be solved.   
-
 * At the live demo users will be able to come up to the GUI and take it for a spin putting in math function
 and intern get the answer such as when the put in "derivative of x^2" they will get back "2x". This is a 
 very simple example but we expect the system to be able to do much more complicated expression at the time
@@ -46,10 +44,8 @@ of the demo.
 ### Evaluation of Results
 * We are able to input controled math expressions that have known results that we have calculated by hand.
 This gives us the ability to check the validity of are computing code.
-
 * The plot functionality can be test by giving expressions to both are code and a graphing calculator to check
 and make sure both sources match.
-
 * The parsing of user input will be able to be tested by seeing if the proper key words are applied to expression
 in the proper order.
 
