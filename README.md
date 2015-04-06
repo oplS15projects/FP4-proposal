@@ -23,7 +23,7 @@ Your team will have two minutes to present. Create presentation with two or thre
 
 # Project Title: Photobench
 ### Problem Statement
-Describe your problem, and why it is interesting. 
+These days, everything is documented by photos. People take them every day, both of themselves and their lives. Sometimes, these photographers (both amateur and professional) need to make changes to their photos, but they don't want to spend money on expensive photo-editing suites to do so. That's where Photobench comes in. Photobench is a Racket-based photo-editing program which has an emphasis on maintaining the abstraction barrier between the user and the components that actually make up the image. 
 
 ### Problem Analysis
 Explain what approaches from class you will bring to bear on the problem. Be explicit and succinct.
@@ -38,13 +38,7 @@ Do your homework here: if you are pulling data from somewhere, actually go downl
 If you are using some other starting materails, explain what they are. Basically: anything you plan to use that isn't code.
 
 ### Deliverable and Demonstration
-Explain exactly what you'll have at the end. What will it be able to do at the live demo?
-
-What exactly will you produce at the end of the project? A piece of software, yes, but what will it do? Here are some questions to think about (and answer depending on your application).
-
-Will it run on some data, like batch mode? Will you present some analytical results of the processing? How can it be re-run on different source data?
-
-Will it be interactive? Can you show it working? This project involves a live demo, so interactivity is good.
+The end product of this project will be a fully functional Photobench program. As a live demonstration of this program, we will run the suite of tools on a sample image, showing things such as painting, desaturation, and red-eye removal.
 
 ### Evaluation of Results
 How will you know if you are successful? 
