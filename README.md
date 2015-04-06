@@ -26,25 +26,22 @@ Your team will have two minutes to present. Create presentation with two or thre
 Describe your problem, and why it is interesting. 
 
 ### Problem Analysis
-Explain what approaches from class you will bring to bear on the problem. Be explicit and succinct.
+* We plan to make different lays of abstraction so that the code can be very easily build on.
+
+* We also plan to build objects that allow us to link are key words to there perspective procedure.
 
 ### Data set or other source materials
-If you will be working with existing data, where will you get those data from? (Dowload it from a website? access it in a database? create it in a simulation you will build....)
-
-How will you convert that data into a form usable for your project?  
-
-Do your homework here: if you are pulling data from somewhere, actually go download it and look at it. Explain in some detail what your plan is for accomplishing the necessary processing.
-
-If you are using some other starting materails, explain what they are. Basically: anything you plan to use that isn't code.
+* There is no other data needed other then the data that the user gives in the form of math expressions at 
+run time.
 
 ### Deliverable and Demonstration
-Explain exactly what you'll have at the end. What will it be able to do at the live demo?
+* At the end of the project we will a afully functional easy to use gui that allows the used to enter math 
+expressions to be solved.   
 
-What exactly will you produce at the end of the project? A piece of software, yes, but what will it do? Here are some questions to think about (and answer depending on your application).
-
-Will it run on some data, like batch mode? Will you present some analytical results of the processing? How can it be re-run on different source data?
-
-Will it be interactive? Can you show it working? This project involves a live demo, so interactivity is good.
+* At the live demo users will be able to come up to the GUI and take it for a spin putting in math function
+and intern get the answer such as when the put in "derivative of x^2" they will get back "2x". This is a 
+very simple example but we expect the system to be able to do much more complicated expression at the time
+of the demo.
 
 ### Evaluation of Results
 * We are able to input controled math expressions that have known results that we have calculated by hand.
