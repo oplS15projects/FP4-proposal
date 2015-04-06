@@ -47,8 +47,15 @@ Will it run on some data, like batch mode? Will you present some analytical resu
 Will it be interactive? Can you show it working? This project involves a live demo, so interactivity is good.
 
 ### Evaluation of Results
-How will you know if you are successful? 
-If you include some kind of _quantitative analysis,_ that would be fantastic.
+*We are able to input controled math expressions that have known results that we have calculated by hand.
+This gives us the ability to check the validity of are computing code.
+
+*The plot functionality can be test by giving expressions to both are code and a graphing calculator to check
+and make sure both sources match.
+
+*The parsing of user input will be able to be tested by seeing if the proper key words are applied to expression
+in the proper order.
+
 
 ## Work Plan and Schedule
 Explain how you will go from proposal to finished product. Write your general plan here. 
