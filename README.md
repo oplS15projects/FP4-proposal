@@ -34,7 +34,7 @@ Describe your problem, and why it is interesting.
 run time.
 
 ### Deliverable and Demonstration
-* At the end of the project we will a afully functional easy to use gui that allows the used to enter math 
+* At the end of the project we will have a fully functional easy to use gui that allows the used to enter math 
 expressions to be solved.   
 * At the live demo users will be able to come up to the GUI and take it for a spin putting in math function
 and intern get the answer such as when the put in "derivative of x^2" they will get back "2x". This is a 
