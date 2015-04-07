@@ -1,6 +1,5 @@
 # Project Title: RacketSynth
 ### Problem Statement
-Describe your problem, and why it is interesting. 
 The RSound sound engine is a powerful tool. It allows for the representation, reading, writing, playing and manipulation of
 sounds. Unfortunately, it is rather complicated and difficult to use. Our plan is to simplifiy it's use by wrapping it with
 a graphical user interface. This will be done using the Racket GUI Toolkit. 
