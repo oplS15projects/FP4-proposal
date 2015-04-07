@@ -67,18 +67,27 @@ Will be creating the backend of the project, namely the procedures for each tool
 ### Eric Wang
 
 Will work on the front end, which would be the GUI procedures itself.  This would include creation of a file input/output system, where files are able to be saved after editing, along with confirmation windows and sliders for various settings.  In addition, toolbars will be created with options and icons will be made as shortcuts to the associated functions.  
+
 Milestone One 
+
 -General framework of GUI done
+
 -Canvas ready for the image
+
 -Toolbars Present
 
 Milestone Two 
+
 -Icons and link to their associated action.
+
 -Toolbars functionality, like save and close.
+
 -Resizing and rotating the image also there, with a new popup window and slider adjustment.
 
 Final
+
 -Full functionality
+
 -This would be cut, crop, paste, undo, redo.
 
 ## Proposal Presentation Link
