@@ -11,8 +11,8 @@ Our regular computer calculators aren't expressive enough and Racket is an expre
 * The high order procedures that we have covered in class such as filter and map will be used to handle searching and limiting are data structures.
 
 ### Data set or other source materials
-* There is no other data needed other then the data that the user gives in the form of math expressions at 
-run time.
+* The only data that is needed for this program is the data that is given by the user.
+* The data that the user has supplied to the program is then sent through a parser that breaks it apart and passes down to the handle to be processed.
 
 ### Deliverable and Demonstration
 * The goal is the have an program that is simple and powerful and a ease to build upone. Simple in terms that it allows the user to enter there expression without the need of worring about what bottons to press or what order it is needed to be entered. The power of the program will come from the ease at which the program can be expanded on to add new math function.   
