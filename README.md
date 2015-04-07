@@ -36,7 +36,7 @@ Project Proposal is due 2015-04-08 at 8am
 
 ### Evaluation of Results
 
-* Bottle-Racket will be able to convert the first 4 assignment test files.
+* Bottle-Racket will be able to convert the first 3 assignments along with ps5.
 * Scheduler will be able to successfully run test-running scripts in consistent intervals, even when the mailing list associated with the test area is updated between consecutive test run-ups and when the source code tested is changed.
 * Email module will be able to detect when a user enters an incorrect email address or when a database stored in the user's storage is corrupted between the program run-ups, and notify the user of the invalid entries.
 * Racket-Doc will be able to successfully extract the user-specified attributes, save it to file, and display it in web pages running on the local host.
