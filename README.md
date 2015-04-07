@@ -15,8 +15,7 @@ Our regular computer calculators aren't expressive enough and Racket is an expre
 run time.
 
 ### Deliverable and Demonstration
-* At the end of the project we will have a fully functional easy to use gui that allows the used to enter math 
-expressions to be solved.   
+* The goal is the have an program that is simple and powerful and a ease to build upone. Simple in terms that it allows the user to enter there expression without the need of worring about what bottons to press or what order it is needed to be entered. The power of the program will come from the ease at which the program can be expanded on to add new math function.   
 * At the live demo users will be able to come up to the GUI and take it for a spin putting in math function
 and intern get the answer such as when the put in "derivative of x^2" they will get back "2x". This is a 
 very simple example but we expect the system to be able to do much more complicated expression at the time
