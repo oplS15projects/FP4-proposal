@@ -58,7 +58,10 @@ In this general plan, and in the deliverables below.
 * The look up table needed to link the user input to the processing procedures will be complete.
 
 ### Second Milestone (04-21)
-* Procedures for basic mathematical keywords. Examples: Derivative, Graph, Simplify.
+* Create procedure needed for the plot/graph keyword.
+* Create procedure needed for the derivative keyword.
+* Create procedure needed for the simplify keyword.
+* Add more keywords/procedures as long as time permits.
 
 ## Group Responsibilities
 Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
