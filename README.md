@@ -30,7 +30,10 @@ We will show all of the working freatures in our final demonstration.
 
 ### Evaluation of Results
 How will you know if you are successful? 
-If you include some kind of _quantitative analysis,_ that would be fantastic.
+As the main purpose of this assignment is to make RSound easier to use, (though will a reduced functionality), we will conduct
+brief usability tests. This will consist of asking friends, both with substantial experience with computers and without, to use
+our program and describe the experience. We may also give them a short list of simple tasks to complete. Also, we will have the
+program tested by a keyboard or piano player to see if they can actually get some music out of the program. 
 
 ## Work Plan and Schedule
 Explain how you will go from proposal to finished product. Write your general plan here. 
