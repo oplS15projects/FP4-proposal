@@ -16,10 +16,8 @@ run time.
 
 ### Deliverable and Demonstration
 * The goal is the have an program that is simple and powerful and a ease to build upone. Simple in terms that it allows the user to enter there expression without the need of worring about what bottons to press or what order it is needed to be entered. The power of the program will come from the ease at which the program can be expanded on to add new math function.   
-* At the live demo users will be able to come up to the GUI and take it for a spin putting in math function
-and intern get the answer such as when the put in "derivative of x^2" they will get back "2x". This is a 
-very simple example but we expect the system to be able to do much more complicated expression at the time
-of the demo.
+* During the demonstration the gaol is to let the programs ease of use be the focal point. To do this people will be able to come to the system and take it for a spin by trying out there favorite math expression.  
+* Also at the demonstration a example of how to add functionality to the program will be shown  so that users can get a sense of how simple it is for them to build on are platform.
 
 ### Evaluation of Results
 * We are able to input controlled math expressions that have known results that we have calculated by hand.
