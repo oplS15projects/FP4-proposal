@@ -35,12 +35,11 @@ our program and describe the experience. We may also give them a short list of s
 program tested by a keyboard or piano player to see if they can actually get some music out of the program. 
 
 ## Work Plan and Schedule
-Explain how you will go from proposal to finished product. Write your general plan here. 
-There are three deliverable milestones to explicitly define, below. The nature of deliverables depend on your project, but may include things like processed data ready for import, core algorithms implemented, interface design prototyped, etc. 
+The first step in our plan will be to create a simple mock-up of the user interface. This may go through different version as it must have a design that we all agree on. After this has been decied, we will use it as a model to create the actual user interface. After the interface has the correct look and feel, we will all procedures to detect user input. These can be a simple as generating messages to the interpreter such as 'User has pressed key x.', or 'User has selected radio-button y.' These procedures will later be used to connect to the RSound library. 
 
-You will be expected to turn in code, documentation, and data (as appropriate) at each of these stages, so take care in writing concrete steps for your schedule. 
+After the interface is completed, we will begin simplifying the RSound wave generation procedures. We will do this by limiting their options and generalizing the procedure calls. The new procedures will generate sine, sawtooth, square, and pulse waves within a specified frequency range. Again, this limits the level of freedom a user has to use the RSound library, but simplifies the proccess considerably. 
 
-In this general plan, and in the deliverables below.
+After these simplifed proceures have been written we will modify the user-input-detection procedures to create sounds. If all goes to plan, this will essentially complete the project. 
 
 ### First Milestone (04-13)
 We would like to have the user interface completed, though with very little actual functionality. However, any user actions in
