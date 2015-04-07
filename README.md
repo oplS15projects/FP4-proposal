@@ -59,7 +59,9 @@ You will be expected to turn in code, documentation, and data (as appropriate) a
 In this general plan, and in the deliverables below.
 
 ### First Milestone (04-13)
-What exactly will be turned in on this day? 
+* The complete GUI layout will be complete and ready to be hooked to the back end processing code.
+* The parsing of use input will be complete and functional.
+* The look up table needed to link the user input to the processing procedures will be complete.
 
 ### Second Milestone (04-21)
 What exactly will be turned in on this day? 
