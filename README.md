@@ -4,15 +4,18 @@ The RSound sound engine is a powerful tool. It allows for the representation, re
 sounds. Unfortunately, it is rather complicated and difficult to use. Our plan is to simplifiy it's use by wrapping it with
 a graphical user interface. This will be done using the Racket GUI Toolkit. 
 
-### Problem Analysis
-Explain what approaches from class you will bring to bear on the problem. Be explicit and succinct.
+We would also like to create a playable instrument using the Racket GUI Toolkit and RSound. Users can use their keyboard and the
+interface mentioned above to control sounds. 
 
-We will need to take the difficult process of creating particular types of waves at particular frequencies and abstract
-in to simple procedures. These procedures will then be called by our user interface which will present a clear, obvious way to create sounds. 
+### Problem Analysis
+We will need to take the difficult process of creating particular types of sound waves at particular frequencies and abstract it
+in to simple procedures. These procedures will then be called by our user interface which will present a clear, obvious way to
+create sounds. 
+
+This will allow users to more expressively control the RSound library. 
 
 ### Data set or other source materials
-
-If you are using some other starting materails, explain what they are. Basically: anything you plan to use that isn't code.
+The only things we plan to use that isn't code we've written ourselves is the GUI Toolkit and RSound. 
 
 ### Deliverable and Demonstration
 Explain exactly what you'll have at the end. What will it be able to do at the live demo?
