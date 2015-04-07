@@ -18,13 +18,20 @@ This will allow users to more expressively control the RSound library.
 The only things we plan to use that isn't code we've written ourselves is the GUI Toolkit and RSound. 
 
 ### Deliverable and Demonstration
-Explain exactly what you'll have at the end. What will it be able to do at the live demo?
 
 What exactly will you produce at the end of the project? A piece of software, yes, but what will it do? Here are some questions to think about (and answer depending on your application).
 
-Will it run on some data, like batch mode? Will you present some analytical results of the processing? How can it be re-run on different source data?
-
 Will it be interactive? Can you show it working? This project involves a live demo, so interactivity is good.
+
+The final version of our project will, ideally, have an interface for creating various types of sound waves at selected
+frequencies. These could be sine, sawtooth, square, or pulse waves. The frequencies will have reasonable upper and lower limits
+in order to protect the user's audio hardware and their ears. If we have time, we would like to add the layering of multiple
+sounds and differnet values. Theoretically, these layers could be used to synthesize any sound. 
+
+We will also create a way for the frequencies to be set by mapping keyboard inputs to particular values. This will allow a user
+to use their computer's keyboard as a playable instrument. 
+
+We will show all of the working freatures in our final demonstration. 
 
 ### Evaluation of Results
 How will you know if you are successful? 
