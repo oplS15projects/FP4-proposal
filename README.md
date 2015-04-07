@@ -1,77 +1,49 @@
-# FP4-proposal
-Project Proposal is due 2015-04-08 at 8am
+# Project Title: Keyventure!
 
-Produce a plan for your final project, and prepare an in-class presentation.
+<p align="center">
+	<img src="http://docs.racket-lang.org/teachpack/pict.png"/>
+</p>
 
-Ask questions, as always, [on piazza!][piazza]
-
-## Written Proposal Instructions
-
-Teams will submit ONE written proposal, with sections that each member has done individually detailing their proposed contributions. The submission will be on github, as a pull request of this very file. Below is a template proposal report.
-
-You should be proposing something that you have high confidence that you can achieve, and the proposal should project that confidence.
-The proposal should be no longer than necessary, but long enough to include critical detail. Three pages is appropriate. Diagrams are welcome. 
-
-Remember, you can do some neat [formatting things with Markdown.][markdown]
-
-## In-Class Presentation Instructions
-Teams will each deliver an in-class presentation. **Presentations will be Wednesday, April 8** (and Friday, April 10 as necessary). The presentation material is due on April 8 by 9 am for everybody. [See piazza for full schedule.][piazza]
-
-Your team will have two minutes to present. Create presentation with two or three slides. Make the slides in google drive, and share the public-viewable link at the bottom of this report. The day of presentations, I'll have the list of links on the display computer, so each team can simply click their link and begin. 
-
-(Template follows. You may delete this line and all above it. Please edit the following template to create your report.)
-
-# Project Title: title here (10 words maximum)
 ### Problem Statement
-Describe your problem, and why it is interesting. 
+Evil Khy and nice-guy Justin are arch enemies. The local king Krishnan of Holyoke has challenged them both to collect all the keys scattered across the universe and win the competition. It is your decision to pick which character to play as.
 
 ### Problem Analysis
-Explain what approaches from class you will bring to bear on the problem. Be explicit and succinct.
+To tackle this problem, we will use lambdas, lets, conditional statements, and the use of external API's. 
 
 ### Data set or other source materials
-If you will be working with existing data, where will you get those data from? (Dowload it from a website? access it in a database? create it in a simulation you will build....)
-
-How will you convert that data into a form usable for your project?  
-
-Do your homework here: if you are pulling data from somewhere, actually go download it and look at it. Explain in some detail what your plan is for accomplishing the necessary processing.
-
-If you are using some other starting materails, explain what they are. Basically: anything you plan to use that isn't code.
+In the beginning of the game, we will run a C++ code to take a picture of the user's face and depending upon whether they are happy or sad, choose "Evil Khy" or "nice-guy Justin" to play the rest of the game. The data will be passed from c++ to Racket via JSON. 
 
 ### Deliverable and Demonstration
-Explain exactly what you'll have at the end. What will it be able to do at the live demo?
+At the end, there will be a working platformer game called Keyventure. The user will be able to choose Khy or Justin depending on their initial mood and use the arrow keys on the keyboard to control the character's movement. The spacebar will be used to make the character jump over dangerous obstacles. 
 
-What exactly will you produce at the end of the project? A piece of software, yes, but what will it do? Here are some questions to think about (and answer depending on your application).
+This program will be interactive and will present the user with a GUI that they can play with. We will get keyboard input from the user to control movement.
 
-Will it run on some data, like batch mode? Will you present some analytical results of the processing? How can it be re-run on different source data?
-
-Will it be interactive? Can you show it working? This project involves a live demo, so interactivity is good.
-
-### Evaluation of Results
-How will you know if you are successful? 
-If you include some kind of _quantitative analysis,_ that would be fantastic.
+### Evaluation of Resultsd
+If the game fully works, the user will be able to smile at the beginning of the game and play the rest of the game as nice-guy Justin or they can be sad and play the rest of the game as evil Khy. 
 
 ## Work Plan and Schedule
-Explain how you will go from proposal to finished product. Write your general plan here. 
-There are three deliverable milestones to explicitly define, below. The nature of deliverables depend on your project, but may include things like processed data ready for import, core algorithms implemented, interface design prototyped, etc. 
-
-You will be expected to turn in code, documentation, and data (as appropriate) at each of these stages, so take care in writing concrete steps for your schedule. 
-
-In this general plan, and in the deliverables below.
 
 ### First Milestone (04-13)
-What exactly will be turned in on this day? 
+Our first milestone will be to have a GUI on the racket side, the characters loaded on the screen able to be moved with keyboard input, and finally the c++ code able to take a picture of the user and determine their mood.
 
 ### Second Milestone (04-21)
-What exactly will be turned in on this day? 
+Our second milestone will have obstacles, background, and possibly music within the game. It will also be able to take the output of the c++ code and determine which character to play as.
 
 ## Group Responsibilities
 Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
 
-### Susan Scheme
-will write the....
+### Rohit Krishnan
+- Modify C++ to take picture of user and analyze their mood
+- Collect data from the racket side and determine which character to play as
 
-### Leonard Lambda
-will work on...
+### Justin Nguyen
+- Take keyboard input and move characters
+- Building some levels
+
+### Khyteang  
+- GUI of the game
+- Creating the window
+- Uploading the characters from the HDTP/PlanetCute library
 
 ## Proposal Presentation Link
 insert your google presentation public link here, so with one click it will open up in the browser and you can present.
