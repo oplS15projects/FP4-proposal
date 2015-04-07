@@ -29,9 +29,9 @@ These days, everything is documented by photos. People take them every day, both
 Explain what approaches from class you will bring to bear on the problem. Be explicit and succinct.
 
 ### Data set or other source materials
-If you will be working with existing data, where will you get those data from? (Dowload it from a website? access it in a database? create it in a simulation you will build....)
+Since this is a photo editor, the data used will be inputted by the user.  This data will be images in bitmap, and the work will be done directly on the image itself.
 
-How will you convert that data into a form usable for your project?  
+The image that the user inputs should be ready to use, as Racket will convert images into a bitmap format.
 
 Do your homework here: if you are pulling data from somewhere, actually go download it and look at it. Explain in some detail what your plan is for accomplishing the necessary processing.
 
@@ -65,11 +65,13 @@ Here each group member gets a section where they, as an individual, detail what 
 Will be creating the backend of the project, namely the procedures for each tool that will be in the GUI. These procedures will include white balance adjustment, red-eye correction, simple drawing tools, gamma level adjustment, (de)saturation, and more. For milestone one, I will have implemented the procedures to handle the loading and displaying of the desired image. For milestone two, I will have implemented the level-correction procedures (RGB, white balance, gamma, saturation). For the final deliverable, I will have implemented the drawing tools (paintbrush, eraser, etc.).
 
 ### Eric Wang
-will work on...
+##Need more stuff
+Will work on the front end, which would be the GUI procedures itself.  This would include creation of a file input/output system, where files are able to be saved after editing, along with confirmation windows and sliders for various settings.  In addition, toolbars will be created with options and icons will be made as shortcuts to the associated functions.  Milestone one will ahve the general framework of the GUI and toolbars done, with a drawable canvas ready.  Milestone two will be icons and the link to their associated action, along with rotating the image and resizing.  The final deliverable will be a complete product with full funtionality, like undo, redo, cutting, cropping, and pasting the image.
 
 ## Proposal Presentation Link
-insert your google presentation public link here, so with one click it will open up in the browser and you can present.
+[The link is here.][link]
 
 <!-- Links -->
 [piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
 [markdown]: https://help.github.com/articles/markdown-basics/
+[link]: https://docs.google.com/presentation/d/1S--tAZMp4S52NcYyCdCmzADmeABylFmv2kQNlapXJd0/edit?usp=sharing
