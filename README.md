@@ -45,10 +45,7 @@ in the proper order.
 
 
 ## Work Plan and Schedule
-Explain how you will go from proposal to finished product. Write your general plan here. 
-There are three deliverable milestones to explicitly define, below. The nature of deliverables depend on your project, but may include things like processed data ready for import, core algorithms implemented, interface design prototyped, etc. 
-
-You will be expected to turn in code, documentation, and data (as appropriate) at each of these stages, so take care in writing concrete steps for your schedule. 
+The work for the project will be split equaly between all three members. The schedule will be made up of are own mini milestones. This will allow us to make sure each component is progressing so that it will meet the larger milestones that have been put in place. 
 
 In this general plan, and in the deliverables below.
 
