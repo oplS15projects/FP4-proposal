@@ -45,7 +45,7 @@ An excel spreadsheet representing a calendar will be used as a planner. Some thi
 * The user doesn't need to specify if the test area loads in a Bottlenose test suite. We already assume the QA Engineer knows how to create test suites and test areas, we are just using Bottlenose tests as the suites. The key is to have properly formatted test area files, and any kind of suite can be run.
 
 First Milestone (04-13)
-* Bottle-Racket will be able to convert the first 3 assignments along with freds-db (that one requires loading in definitions from another file).
+* Bottle-Racket will be able to convert the first 3 assignments along with ps5.
 * Test results can be sent out to the QA Email group by reading in the test result files generated from the test-running scripts created by Test-Capture.
 * Racket-Doc will be able to extract user-specified attributes from .rkt files, and save them to file.  The web pages should be fully navigable (on a local host), although they will contain hard-coded data.
 * User interface and file database for managing and storing mailing lists, as well as sending emails with a test result will be fully functional.
