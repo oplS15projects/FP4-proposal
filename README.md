@@ -21,7 +21,7 @@ The only things we plan to use that isn't code we've written ourselves is the GU
 The final version of our project will, ideally, have an interface for creating various types of sound waves at selected
 frequencies. These could be sine, sawtooth, square, or pulse waves. The frequencies will have reasonable upper and lower limits
 in order to protect the user's audio hardware and their ears. If we have time, we would like to add the layering of multiple
-sounds and differnet values. Theoretically, these layers could be used to synthesize any sound. 
+sounds and different values. Theoretically, these layers could be used to synthesize any sound. 
 
 We will also create a way for the frequencies to be set by mapping keyboard inputs to particular values. This will allow a user
 to use their computer's keyboard as a playable instrument. 
@@ -66,6 +66,9 @@ After the first milestone I will working on creating procedures that can simplif
 
 ### Leonard Lambda
 will work on...
+
+### Steven Scheffelaar Klots
+Work on a portion of the UI for the first milestone and then shift focus to working on implementing and interfacing with the Rsound portion of the project.
 
 ## Proposal Presentation Link
 insert your google presentation public link here, so with one click it will open up in the browser and you can present.
