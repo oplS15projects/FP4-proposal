@@ -36,11 +36,11 @@ Here each group member gets a section where they, as an individual, detail what 
 ### Nathan Goss
 Will be creating the backend of the project, namely the procedures for each tool that will be in the GUI. These procedures will include white balance adjustment, red-eye correction, simple drawing tools, gamma level adjustment, (de)saturation, and more.
 
-*Milestone One*
+**Milestone One**
 
 -Procedures for loading and displaying the desired image
 
-*Milestone Two*
+**Milestone Two**
 
 -RGB balance
 
@@ -50,7 +50,7 @@ Will be creating the backend of the project, namely the procedures for each tool
 
 -Saturation
 
-*Milestone Three*
+**Milestone Three**
 
 -Paintbrush
 
@@ -62,7 +62,7 @@ Will be creating the backend of the project, namely the procedures for each tool
 
 Will work on the front end, which would be the GUI procedures itself.  This would include creation of a file input/output system, where files are able to be saved after editing, along with confirmation windows and sliders for various settings.  In addition, toolbars will be created with options and icons will be made as shortcuts to the associated functions.  
 
-*Milestone One* 
+**Milestone One** 
 
 -General framework of GUI done
 
@@ -70,7 +70,7 @@ Will work on the front end, which would be the GUI procedures itself.  This woul
 
 -Toolbars Present
 
-*Milestone Two* 
+**Milestone Two**
 
 -Icons and link to their associated action.
 
@@ -78,7 +78,7 @@ Will work on the front end, which would be the GUI procedures itself.  This woul
 
 -Resizing and rotating the image also there, with a new popup window and slider adjustment.
 
-*Final*
+**Final**
 
 -Full functionality
 
