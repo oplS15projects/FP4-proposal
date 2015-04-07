@@ -80,9 +80,15 @@ Will work on the front end, which would be the GUI procedures itself.  This woul
 
 **Final**
 
--Full functionality
+-Cut
 
--This would be cut, crop, paste, undo, redo.
+-Crop
+
+-Paste
+
+-Undo
+
+-Redo
 
 ## Proposal Presentation Link
 [The link is here.][link]
