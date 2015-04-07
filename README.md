@@ -1,18 +1,12 @@
 # FP4-proposal
 Project Proposal is due 2015-04-08 at 8am
 
-Produce a plan for your final project, and prepare an in-class presentation.
-
-Ask questions, as always, [on piazza!][piazza]
-
 ## Written Proposal Instructions
 
 Teams will submit ONE written proposal, with sections that each member has done individually detailing their proposed contributions. The submission will be on github, as a pull request of this very file. Below is a template proposal report.
 
 You should be proposing something that you have high confidence that you can achieve, and the proposal should project that confidence.
 The proposal should be no longer than necessary, but long enough to include critical detail. Three pages is appropriate. Diagrams are welcome. 
-
-Remember, you can do some neat [formatting things with Markdown.][markdown]
 
 ## In-Class Presentation Instructions
 Teams will each deliver an in-class presentation. **Presentations will be Wednesday, April 8** (and Friday, April 10 as necessary). The presentation material is due on April 8 by 9 am for everybody. [See piazza for full schedule.][piazza]
@@ -21,9 +15,9 @@ Your team will have two minutes to present. Create presentation with two or thre
 
 (Template follows. You may delete this line and all above it. Please edit the following template to create your report.)
 
-# Project Title: title here (10 words maximum)
+# Project Title: Goat Lambda
 ### Problem Statement
-Describe your problem, and why it is interesting. 
+Our regular computer calculators aren't expressive enough and Racket is an expressive language. We can use Racket and its expressive sytax to create a calculator that takes in an equation and analyzes it, simplifies it, and graphs it, all in its own contained GUI.
 
 ### Problem Analysis
 * We plan to make different lays of abstraction so that the code can be very easily build on.
@@ -42,7 +36,7 @@ very simple example but we expect the system to be able to do much more complica
 of the demo.
 
 ### Evaluation of Results
-* We are able to input controled math expressions that have known results that we have calculated by hand.
+* We are able to input controlled math expressions that have known results that we have calculated by hand.
 This gives us the ability to check the validity of are computing code.
 * The plot functionality can be test by giving expressions to both are code and a graphing calculator to check
 and make sure both sources match.
@@ -64,7 +58,7 @@ In this general plan, and in the deliverables below.
 * The look up table needed to link the user input to the processing procedures will be complete.
 
 ### Second Milestone (04-21)
-What exactly will be turned in on this day? 
+* Procedures for basic mathematical keywords. Examples: Derivative, Graph, Simplify.
 
 ## Group Responsibilities
 Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
@@ -74,14 +68,26 @@ Here each group member gets a section where they, as an individual, detail what 
 * Will complete the table needed to link the user input to the back end processing procedures.
 * Also will help Brian on completing the parser for the user input.
 
+##### Second Milestone:
+* Creating procedures for keywords
 
-### Leonard Lambda
-will work on...
+### Brian Carlson
+##### First Milestone:
+* Parser for user input (extracting procedure keywords and mathematical expression)
+
+##### Second Milestone:
+* Creating procedures for keywords
+
+### Norman Mutunga
+##### First Milestone:
+*
+
+##### Second Milestone:
+* Creating procedures for keywords
 
 ## Proposal Presentation Link
-[**Goat Lambda**][Goat-Lambda]
+https://docs.google.com/presentation/d/16Rdq3k_QRaX8tFefR1sQdzLVkyQ6EENQuHVDwc9Axak/edit#slide=id.gad3b04a0b_0_7
 
 <!-- Links -->
 [piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
 [markdown]: https://help.github.com/articles/markdown-basics/
-[Goat-Lambda]:https://docs.google.com/presentation/d/16Rdq3k_QRaX8tFefR1sQdzLVkyQ6EENQuHVDwc9Axak/edit#slide=id.gad3b04a0b_0_7
