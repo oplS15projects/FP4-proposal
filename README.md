@@ -26,23 +26,18 @@ Your team will have two minutes to present. Create presentation with two or thre
 These days, everything is documented by photos. People take them every day, both of themselves and their lives. Sometimes, these photographers (both amateur and professional) need to make changes to their photos, but they don't want to spend money on expensive photo-editing suites to do so. That's where Photobench comes in. Photobench is a Racket-based photo-editing program which has an emphasis on maintaining the abstraction barrier between the user and the components that actually make up the image. 
 
 ### Problem Analysis
-Explain what approaches from class you will bring to bear on the problem. Be explicit and succinct.
+The main idea from class which we will be using in this project is the idea of building an abstraction barrier between the user and the program. This barrier will be the tools provided for the user, which will each dispatch, in different ways, the underlying procedures.
 
 ### Data set or other source materials
 Since this is a photo editor, the data used will be inputted by the user.  This data will be images in bitmap, and the work will be done directly on the image itself.
 
 The image that the user inputs should be ready to use, as Racket will convert images into a bitmap format.
 
-Do your homework here: if you are pulling data from somewhere, actually go download it and look at it. Explain in some detail what your plan is for accomplishing the necessary processing.
-
-If you are using some other starting materails, explain what they are. Basically: anything you plan to use that isn't code.
-
 ### Deliverable and Demonstration
 The end product of this project will be a fully functional Photobench program. As a live demonstration of this program, we will run the suite of tools on a sample image, showing things such as painting, desaturation, and red-eye removal.
 
 ### Evaluation of Results
-How will you know if you are successful? 
-If you include some kind of _quantitative analysis,_ that would be fantastic.
+Our level of success will be based on the effectiveness of each tool in our toolset. This will be judged on a case-by-case basis for each tool independently.
 
 ## Work Plan and Schedule
 Explain how you will go from proposal to finished product. Write your general plan here. 
@@ -53,16 +48,29 @@ You will be expected to turn in code, documentation, and data (as appropriate) a
 In this general plan, and in the deliverables below.
 
 ### First Milestone (04-13)
-What exactly will be turned in on this day? 
+For this milestone, the deliverable will be a basic GUI which has toolbars and a canvas, which can load and display the user's desired image. It will not have much functionality beyond that at this point.
 
 ### Second Milestone (04-21)
-What exactly will be turned in on this day? 
+For this milestone, the deliverable will be a more advanced GUI, with icons for each tool, functionality for saving, closing, resizing, and level-correction procedures (RGB, white balance, gamma, saturation).
 
 ## Group Responsibilities
 Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
 
 ### Nathan Goss
 Will be creating the backend of the project, namely the procedures for each tool that will be in the GUI. These procedures will include white balance adjustment, red-eye correction, simple drawing tools, gamma level adjustment, (de)saturation, and more. For milestone one, I will have implemented the procedures to handle the loading and displaying of the desired image. For milestone two, I will have implemented the level-correction procedures (RGB, white balance, gamma, saturation). For the final deliverable, I will have implemented the drawing tools (paintbrush, eraser, etc.).
+*Milestone One*
+-Procedures for loading and displaying the desired image
+
+*Milestone Two*
+-RGB balance
+-White balance
+-Gamma adjustment
+-Saturation
+
+*Milestone Three*
+-Paintbrush
+-Eraser
+-Other drawing tools
 
 ### Eric Wang
 
