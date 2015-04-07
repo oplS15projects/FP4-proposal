@@ -65,6 +65,7 @@ to emulate the timbres of popular instruments, and provide users with a selectab
 
 ## Proposal Presentation Link
 
+https://docs.google.com/presentation/d/1FuxFHALw1LRU1OaHun4YQsiwaE7rN1SE4YsC0nTrCWk/edit?usp=sharing
 
 <!-- Links -->
 [piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
