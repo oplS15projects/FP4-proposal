@@ -11,10 +11,14 @@ We will be using data abstraction, modularity, object oriented concepts includin
 ### Data set or other source materials
 
 These will be used as reference for understanding how to modify sine waves to add effects and to emulate different instruments:
-http://www.soundonsound.com/search?url=%2Fsearch&Keyword=%22synth+secrets%22&Words=All&Summary=Yes]
+http://www.soundonsound.com/search?url=%2Fsearch&Keyword=%22synth+secrets%22&Words=All&Summary=Yes
+
 http://www.planetoftunes.com/synthesis/emulating-real-instruments-with-subtractive-synthesis.html#.VSP75cuan7B
+
 http://www.pd-tutorial.com/english/
+
 http://drpetter.se/article_sound.html
+
 http://music.columbia.edu/cmc/musicandcomputers/chapter4/04_09.php
 
 ### Deliverable and Demonstration
