@@ -29,7 +29,6 @@ to use their computer's keyboard as a playable instrument.
 We will show all of the working freatures in our final demonstration. 
 
 ### Evaluation of Results
-How will you know if you are successful? 
 As the main purpose of this assignment is to make RSound easier to use, (though will a reduced functionality), we will conduct
 brief usability tests. This will consist of asking friends, both with substantial experience with computers and without, to use
 our program and describe the experience. We may also give them a short list of simple tasks to complete. Also, we will have the
