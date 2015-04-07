@@ -8,6 +8,7 @@ Our regular computer calculators aren't expressive enough and Racket is an expre
 ### Problem Analysis
 * We plan to make different lays of abstraction so that the code can be very easily build on.
 * We also plan to build objects that allow us to link are key words to there perspective procedure.
+* The high order procedures that we have covered in class such as filter and map will be used to handle searching and limiting are data structures.
 
 ### Data set or other source materials
 * There is no other data needed other then the data that the user gives in the form of math expressions at 
