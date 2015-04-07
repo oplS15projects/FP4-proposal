@@ -37,9 +37,11 @@ Here each group member gets a section where they, as an individual, detail what 
 Will be creating the backend of the project, namely the procedures for each tool that will be in the GUI. These procedures will include white balance adjustment, red-eye correction, simple drawing tools, gamma level adjustment, (de)saturation, and more.
 
 *Milestone One*
+
 -Procedures for loading and displaying the desired image
 
 *Milestone Two*
+
 -RGB balance
 
 -White balance
@@ -49,6 +51,7 @@ Will be creating the backend of the project, namely the procedures for each tool
 -Saturation
 
 *Milestone Three*
+
 -Paintbrush
 
 -Eraser
