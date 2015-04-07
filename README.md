@@ -50,7 +50,7 @@ Will be creating the backend of the project, namely the procedures for each tool
 
 -Saturation
 
-**Milestone Three**
+**Final**
 
 -Paintbrush
 
