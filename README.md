@@ -3,7 +3,10 @@ Project Proposal is due 2015-04-08 at 8am
 
 # Project Title: Goat Lambda
 ### Problem Statement
-Our regular computer calculators aren't expressive enough and Racket is an expressive language. We can use Racket and its expressive sytax to create a calculator that takes in an equation and analyzes it, simplifies it, and graphs it, all in its own contained GUI.
+Our regular computer calculators are clunky and aren't expressive enough. Lets break free from that and create a mathematical engine that is simple while being expressive. 
+
+* The current problem we see with most computer calcultors is that the user needs to put everthing into the calculator one digit at a time, but why not type it in just as if you where writing it on paper.
+* This problem is interesting because looking at it there is the posibility to create a powerful tool that can be easily expanded due to the ability to create high level functions and layers of abstration int the racket enviroment.
 
 ### Problem Analysis
 * We plan to make different lays of abstraction so that the code can be very easily build on.
