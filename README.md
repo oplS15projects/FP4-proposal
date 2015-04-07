@@ -65,8 +65,21 @@ Here each group member gets a section where they, as an individual, detail what 
 Will be creating the backend of the project, namely the procedures for each tool that will be in the GUI. These procedures will include white balance adjustment, red-eye correction, simple drawing tools, gamma level adjustment, (de)saturation, and more. For milestone one, I will have implemented the procedures to handle the loading and displaying of the desired image. For milestone two, I will have implemented the level-correction procedures (RGB, white balance, gamma, saturation). For the final deliverable, I will have implemented the drawing tools (paintbrush, eraser, etc.).
 
 ### Eric Wang
-##Need more stuff
-Will work on the front end, which would be the GUI procedures itself.  This would include creation of a file input/output system, where files are able to be saved after editing, along with confirmation windows and sliders for various settings.  In addition, toolbars will be created with options and icons will be made as shortcuts to the associated functions.  Milestone one will ahve the general framework of the GUI and toolbars done, with a drawable canvas ready.  Milestone two will be icons and the link to their associated action, along with rotating the image and resizing.  The final deliverable will be a complete product with full funtionality, like undo, redo, cutting, cropping, and pasting the image.
+
+Will work on the front end, which would be the GUI procedures itself.  This would include creation of a file input/output system, where files are able to be saved after editing, along with confirmation windows and sliders for various settings.  In addition, toolbars will be created with options and icons will be made as shortcuts to the associated functions.  
+Milestone One 
+-General framework of GUI done
+-Canvas ready for the image
+-Toolbars Present
+
+Milestone Two 
+-Icons and link to their associated action.
+-Toolbars functionality, like save and close.
+-Resizing and rotating the image also there, with a new popup window and slider adjustment.
+
+Final
+-Full functionality
+-This would be cut, crop, paste, undo, redo.
 
 ## Proposal Presentation Link
 [The link is here.][link]
