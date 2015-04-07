@@ -13,6 +13,9 @@ Project Proposal is due 2015-04-08 at 8am
 
 * Higher-Order-Procedures discussed in class such as map, filter, zip will be used. We also need to keep the substitution model in mind when creating new data from original data.
 * As a team we need to consider what level of abstraction to implement for our project.
+* Technique to create an object with local state variables and procedures will be used to maintain a database of mailing list entries consisting of names and addresses, as well as procedures to access and modify them.
+* Multiple threads may be necessary to be able to schedule and execute tests with different intervals in parallel.
+
 
 ### Data set or other source materials
 
