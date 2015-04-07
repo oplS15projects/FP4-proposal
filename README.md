@@ -86,8 +86,10 @@ Here each group member gets a section where they, as an individual, detail what 
 * Creating procedures for keywords
 
 ## Proposal Presentation Link
-https://docs.google.com/presentation/d/16Rdq3k_QRaX8tFefR1sQdzLVkyQ6EENQuHVDwc9Axak/edit#slide=id.gad3b04a0b_0_7
+[**Goat Lambda**][Goat-Lambda]
 
 <!-- Links -->
 [piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
 [markdown]: https://help.github.com/articles/markdown-basics/
+
+[Goat-Lambda]:https://docs.google.com/presentation/d/16Rdq3k_QRaX8tFefR1sQdzLVkyQ6EENQuHVDwc9Axak/edit#slide=id.gad3b04a0b_0_7
