@@ -1,39 +1,17 @@
-# FP4-proposal
-Project Proposal is due 2015-04-08 at 8am
-
-Produce a plan for your final project, and prepare an in-class presentation.
-
-Ask questions, as always, [on piazza!][piazza]
-
-## Written Proposal Instructions
-
-Teams will submit ONE written proposal, with sections that each member has done individually detailing their proposed contributions. The submission will be on github, as a pull request of this very file. Below is a template proposal report.
-
-You should be proposing something that you have high confidence that you can achieve, and the proposal should project that confidence.
-The proposal should be no longer than necessary, but long enough to include critical detail. Three pages is appropriate. Diagrams are welcome. 
-
-Remember, you can do some neat [formatting things with Markdown.][markdown]
-
-## In-Class Presentation Instructions
-Teams will each deliver an in-class presentation. **Presentations will be Wednesday, April 8** (and Friday, April 10 as necessary). The presentation material is due on April 8 by 9 am for everybody. [See piazza for full schedule.][piazza]
-
-Your team will have two minutes to present. Create presentation with two or three slides. Make the slides in google drive, and share the public-viewable link at the bottom of this report. The day of presentations, I'll have the list of links on the display computer, so each team can simply click their link and begin. 
-
-(Template follows. You may delete this line and all above it. Please edit the following template to create your report.)
-
-# Project Title: title here (10 words maximum)
+# Project Title: RacketSynth
 ### Problem Statement
 Describe your problem, and why it is interesting. 
+The RSound sound engine is a powerful tool. It allows for the representation, reading, writing, playing and manipulation of
+sounds. Unfortunately, it is rather complicated and difficult to use. Our plan is to simplifiy it's use by wrapping it with
+a graphical user interface. This will be done using the Racket GUI Toolkit. 
 
 ### Problem Analysis
 Explain what approaches from class you will bring to bear on the problem. Be explicit and succinct.
 
+We will need to take the difficult process of creating particular types of waves at particular frequencies and abstract
+in to simple procedures. These procedures will then be called by our user interface which will present a clear, obvious way to create sounds. 
+
 ### Data set or other source materials
-If you will be working with existing data, where will you get those data from? (Dowload it from a website? access it in a database? create it in a simulation you will build....)
-
-How will you convert that data into a form usable for your project?  
-
-Do your homework here: if you are pulling data from somewhere, actually go download it and look at it. Explain in some detail what your plan is for accomplishing the necessary processing.
 
 If you are using some other starting materails, explain what they are. Basically: anything you plan to use that isn't code.
 
@@ -59,10 +37,19 @@ You will be expected to turn in code, documentation, and data (as appropriate) a
 In this general plan, and in the deliverables below.
 
 ### First Milestone (04-13)
-What exactly will be turned in on this day? 
+We would like to have the user interface completed, though with very little actual functionality. However, any user actions in
+the interface shoud trigger special test events so that we know the user actions are being detected. This could be a test as
+simple as displaying a string in the interpreter when the user presses a particular button. 
+
+This will not yet include any of the keyboard instrument functionality. 
 
 ### Second Milestone (04-21)
-What exactly will be turned in on this day? 
+The user interface should now be able to call procedures that create sounds according to the user's specifications. The sound
+creation should be achieved through simple, expressive procedure calls. 
+
+We will also have the interface for the keyboard instrument working. As we will need to take keyboard input, a good test would 
+be echoing whatever key is pressed in the interpreter, again, to make sure that user input is being properly detected. 
+
 
 ## Group Responsibilities
 Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
