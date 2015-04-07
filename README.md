@@ -1,7 +1,7 @@
 # FP4-proposal
 Project Proposal is due 2015-04-08 at 8am
 
-# Project Title: Goat Lambda
+# Project Title: Goat Lambda (λ)
 ### Problem Statement
 Our regular computer calculators are clunky and aren't expressive enough. Let us break free from that and create a mathematical engine that is simple while being expressive. 
 
