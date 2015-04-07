@@ -67,14 +67,22 @@ Here each group member gets a section where they, as an individual, detail what 
 ##### First Milestone:
 * Will complete the table needed to link the user input to the back end processing procedures.
 * Also will help Brian on completing the parser for the user input.
+
+##### Second Milestone:
 * Creating procedures for keywords
 
 ### Brian Carlson
+##### First Milestone:
 * Parser for user input (extracting procedure keywords and mathematical expression)
+
+##### Second Milestone:
 * Creating procedures for keywords
 
 ### Norman Mutunga
+##### First Milestone:
 *
+
+##### Second Milestone:
 * Creating procedures for keywords
 
 ## Proposal Presentation Link
