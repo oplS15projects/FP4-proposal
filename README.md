@@ -69,8 +69,11 @@ What exactly will be turned in on this day?
 ## Group Responsibilities
 Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
 
-### Susan Scheme
-will write the....
+### Joshua Caravetta
+##### First Milestone:
+* Will complete the table needed to link the user input to the back end processing procedures.
+* Also will help Brian on completing the parser for the user input.
+
 
 ### Leonard Lambda
 will work on...
