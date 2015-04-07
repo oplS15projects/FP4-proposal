@@ -17,12 +17,7 @@ The end product of this project will be a fully functional Photobench program. A
 Our level of success will be based on the effectiveness of each tool in our toolset. This will be judged on a case-by-case basis for each tool independently.
 
 ## Work Plan and Schedule
-Explain how you will go from proposal to finished product. Write your general plan here. 
-There are three deliverable milestones to explicitly define, below. The nature of deliverables depend on your project, but may include things like processed data ready for import, core algorithms implemented, interface design prototyped, etc. 
-
-You will be expected to turn in code, documentation, and data (as appropriate) at each of these stages, so take care in writing concrete steps for your schedule. 
-
-In this general plan, and in the deliverables below.
+Our general plan for the development of this project will be as follows. First, we will design a basic framework for the product, which will have limited tool functionality but will provide a base for the following steps. Next, we will add some of the tool functionality and improve the GUI to be more advanced. Finally, we will add in the rest of the desired functionality, with a focus on higher-level tools.
 
 ### First Milestone (04-13)
 For this milestone, the deliverable will be a basic GUI which has toolbars and a canvas, which can load and display the user's desired image. It will not have much functionality beyond that at this point.
@@ -30,8 +25,10 @@ For this milestone, the deliverable will be a basic GUI which has toolbars and a
 ### Second Milestone (04-21)
 For this milestone, the deliverable will be a more advanced GUI, with icons for each tool, functionality for saving, closing, resizing, and level-correction procedures (RGB, white balance, gamma, saturation).
 
+### Final Code Turn-In (05-01)
+This will include the entire product, with all of the tools and image functions implemented and represented in the GUI.
+
 ## Group Responsibilities
-Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
 
 ### Nathan Goss
 Will be creating the backend of the project, namely the procedures for each tool that will be in the GUI. These procedures will include white balance adjustment, red-eye correction, simple drawing tools, gamma level adjustment, (de)saturation, and more.
@@ -94,6 +91,4 @@ Will work on the front end, which would be the GUI procedures itself.  This woul
 [The link is here.][link]
 
 <!-- Links -->
-[piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
-[markdown]: https://help.github.com/articles/markdown-basics/
 [link]: https://docs.google.com/presentation/d/1S--tAZMp4S52NcYyCdCmzADmeABylFmv2kQNlapXJd0/edit?usp=sharing
