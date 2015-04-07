@@ -1,4 +1,4 @@
-# Project Title: Keyventure!
+# Keyventure!
 
 <p align="center">
 	<img src="http://docs.racket-lang.org/teachpack/pict.png"/>
