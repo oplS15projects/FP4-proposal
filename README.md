@@ -1,81 +1,55 @@
-# FP4-proposal
-Project Proposal is due 2015-04-08 at 8am
 
-Produce a plan for your final project, and prepare an in-class presentation.
-
-Ask questions, as always, [on piazza!][piazza]
-
-## Written Proposal Instructions
-
-Teams will submit ONE written proposal, with sections that each member has done individually detailing their proposed contributions. The submission will be on github, as a pull request of this very file. Below is a template proposal report.
-
-You should be proposing something that you have high confidence that you can achieve, and the proposal should project that confidence.
-The proposal should be no longer than necessary, but long enough to include critical detail. Three pages is appropriate. Diagrams are welcome. 
-
-Remember, you can do some neat [formatting things with Markdown.][markdown]
-
-## In-Class Presentation Instructions
-Teams will each deliver an in-class presentation. **Presentations will be Wednesday, April 8** (and Friday, April 10 as necessary). The presentation material is due on April 8 by 9 am for everybody. [See piazza for full schedule.][piazza]
-
-Your team will have two minutes to present. Create presentation with two or three slides. Make the slides in google drive, and share the public-viewable link at the bottom of this report. The day of presentations, I'll have the list of links on the display computer, so each team can simply click their link and begin. 
-
-(Template follows. You may delete this line and all above it. Please edit the following template to create your report.)
-
-# Project Title: title here (10 words maximum)
+# Project Title: Henriette the Witch
 ### Problem Statement
-Describe your problem, and why it is interesting. 
+We will be making a 2D side-scrolling game. Our plan is to get rather involved, including a number of mechanics. Gameplay will include maneuvering around obstacles, attacking enemies using spells, and gaining experience points to level up. The ultimate goal of the game is to reach the right side of each stage.
+
+We will create the game with the 2htdp/universe library. When using the 2htdp/universe library we manipulate what are called “WorldState”s; These “WorldState”s represent the current state of the program and in our program also choose which maps are to be drawn on the screen. The “big-bang” procedure drives the entire program around so that we can have an interactive product; “big-bang” expects us to hand procedures to it that will handle creating new “WorldState”s, key-handlers, and draw procedures. 
+Therefore, we need to handle drawing the map, player movement, collisions, etc. so that "big-bang" will know what to do with it when it comes to the next state, every "tick" we have to update all the sprites and map.
 
 ### Problem Analysis
-Explain what approaches from class you will bring to bear on the problem. Be explicit and succinct.
+For this project we will have to make use of higher order procedures such as foldr, map, filter, etc. for when we transition between world states and when we are redrawing the map/level. We will also have to separate our code into sprites, entities, maps, and our procedures which we hand to "big-bang"; therefore we are building an abstraction barrier between our helper procedures and all of our game data.
 
 ### Data set or other source materials
-If you will be working with existing data, where will you get those data from? (Dowload it from a website? access it in a database? create it in a simulation you will build....)
+All of our sprites will have to come from a image files which will be saved locally within the game directory. We plan to provide the graphics for the game ourselves, but because programming is our priority, we may end up using graphics from any source online. 
 
-How will you convert that data into a form usable for your project?  
-
-Do your homework here: if you are pulling data from somewhere, actually go download it and look at it. Explain in some detail what your plan is for accomplishing the necessary processing.
-
-If you are using some other starting materails, explain what they are. Basically: anything you plan to use that isn't code.
+We plan to have a feature which will allow a user to save their current status in the game to a file which they can later read from to resume their progress.
 
 ### Deliverable and Demonstration
-Explain exactly what you'll have at the end. What will it be able to do at the live demo?
-
-What exactly will you produce at the end of the project? A piece of software, yes, but what will it do? Here are some questions to think about (and answer depending on your application).
-
-Will it run on some data, like batch mode? Will you present some analytical results of the processing? How can it be re-run on different source data?
-
-Will it be interactive? Can you show it working? This project involves a live demo, so interactivity is good.
+At the end we should have a fully functional side-scrolling game that will be interactive via keyboard controls. It should allow the user to either start a new game or continue an old one. The user can then play through the various levels of the game in order to beat it.
 
 ### Evaluation of Results
-How will you know if you are successful? 
-If you include some kind of _quantitative analysis,_ that would be fantastic.
+We are successful if our game has fully functional user interactivity so they can play the game from start to finish, the map and sprites are drawn successfully throughout the entire game, all the sprites and entities are handled correctly regarding collisions and state, the map is drawn in a way that allows side-scrolling, and we have a functional save/resume system.
 
 ## Work Plan and Schedule
-Explain how you will go from proposal to finished product. Write your general plan here. 
-There are three deliverable milestones to explicitly define, below. The nature of deliverables depend on your project, but may include things like processed data ready for import, core algorithms implemented, interface design prototyped, etc. 
 
-You will be expected to turn in code, documentation, and data (as appropriate) at each of these stages, so take care in writing concrete steps for your schedule. 
+The general plan is to first construct the framework for the game. This includes making controls that feel comfortable to the user, making the level scroll smoothly as the player advances through it, and the drawing and updating of the map, player, and any enemies. We have already succeeded in displaying the map and player character as shown in this screenshot:
 
-In this general plan, and in the deliverables below.
+![screenshot](http://i.imgur.com/Ckhqo2R.png)
+
+Once we have created the basic mechanics of the game, we will move on to implementing the more complicated ones. This includes the collision detection of floors, walls, and enemies, a visual indicator of health points and experience, adding enemies to the game, and creating several platforming elements.
+The both of us realize that getting the level to scroll smoothly will likely be challenging so we will make sure this part is completed before moving on. After that we will work on implementing a pause menu with save and resume features.
 
 ### First Milestone (04-13)
-What exactly will be turned in on this day? 
+By the first milestone we will have implemented the basic mechanics of the game. This means the user will be able to move right and left and jump. Collision with walls and floors will also be solved at this point. The player will have a visual indicator of how many health points they have. Basic enemies will also be implemented at this stage and will decrease the players HP on contact. 
 
 ### Second Milestone (04-21)
-What exactly will be turned in on this day? 
+For the second milestone we should have completely finished the side-scrolling feature so that the user can move right and progress through the game as well as at least one complete stage for the user to play through. Some platforming elements such as falls, traps, and obstacles to avoid will also be built into the maps by this point. The pause menu with the option to save will also be finished.
 
 ## Group Responsibilities
-Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
 
-### Susan Scheme
-will write the....
+### Patrick Lehane
+By the first milestone, I will have completed generating enemies on the map and the enemy collisions with the player. I will also have a basic display of health at this point.
 
-### Leonard Lambda
-will work on...
+For the second milestone, I should have finished enemy movements, the enemy spells and attacks, the experience/level system, and the display of experience. I should also have completed the save/resume feature which will be accessible in the pause menu and the title screen.
+
+### Andrew Gabriel
+I will write the code for making the player character jump and for detecting collision with the wall and the ground. This will be in time for the first milestone.
+
+In time for the second milestone I will have implemented smooth side-scrolling of levels that are wider than the screen width. I will program the spells that the player character can use, as well as the pause menu. The pause feature will allow you to save and to select spells.
 
 ## Proposal Presentation Link
-insert your google presentation public link here, so with one click it will open up in the browser and you can present.
-
+[Presentation][pres]
 <!-- Links -->
+[pres]: https://docs.google.com/presentation/d/1qMK55LT5UqkX7PXKtgqRJgoOyTwPiBrPWBk81P-sovc/edit?usp=sharing
 [piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
 [markdown]: https://help.github.com/articles/markdown-basics/
