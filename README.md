@@ -26,7 +26,7 @@ By the end of this project we will have a working synthesizer that produces comp
 We will know that we are successful when have an easy to use synthesizer that is enjoyable to play. The synthesizer should come with several different features that a user can manipulate and the synthesizer should be able to play any combinations keys displayed on the UI.
 
 ## Work Plan and Schedule
-First we will create a working UI that plays very basic sounds. In parallel we will research and experiment with additive synthesis to understand how to incorporate different user settings into the UI to manipulate the audio waves. Development on the UI will continue to ensure that it is visually appealing and intuitive to use. Some interface settings should be implemented at this point.  
+First we will create a working UI that plays very basic sounds. In parallel we will research and experiment with additive synthesis to understand how to incorporate different user settings into the UI to manipulate the audio waves. Development on the UI will continue to ensure that it is visually appealing and intuitive to use. Some interface settings should be implemented at this point. During the final phase of development the work done on the backend will be interfaced by the UI.
 
 ### First Milestone (04-13)
 - On this day, we will have a working UI that resembles a keyboard and supports user interaction via mouse clicks. At this stage, since our primary concern is event handling, the ability to play pure sine waves whose frequencies correspond to the piano keys selected from the UI is sufficient enough. 
