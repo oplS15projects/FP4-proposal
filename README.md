@@ -36,9 +36,15 @@ The work for the project will be split equally between all three members. The sc
 
 |   | task | state |
 |---|------|-------|
-| 1 | Create GUI Skeleton | in progress |
-|1.1| Finalize GUI| not started |
+| 1 | GUI | in progress |
+| 1.1 | Create GUI Skeleton | in progress |
+| 1.2 | Link GUI to  | not started |
+| 1.3 | Finalize GUI| not started |
 |2| User Input Parser | in progress |
+| 2.1 | Basic Parser Skeleton  | in progress |
+| 2.2 | Plot/Graph Keyword Support Added  | not started |
+| 2.3 | Derivative Keyword Support Added  | not started |
+| 2.4 | Simplify Keyword Support Added  | not started |
 | 3 | Keyword Linking Table | in progress|
 |4| Keyword Procedures | not started |
 |4.1| Plot/Graph Keyword Procedure | not started |
