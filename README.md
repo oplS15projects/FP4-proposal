@@ -1,7 +1,7 @@
 # FP4-proposal
 Project Proposal is due 2015-04-08 at 8am
 
-# Project Title: Goat Lambda (λ)
+# Project Title: Lambda (λ)
 ### Problem Statement
 Regular computer calculators are clunky and aren't expressive enough. Let us break free from that and create a mathematical engine that is simple while being expressive. 
 
@@ -47,7 +47,7 @@ The work for the project will be split equally between all three members. The sc
 * Add more keywords/procedures as long as time permits.
 
 ## Group Responsibilities
-Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
+Below is a break down of what each person is in charge of during the project. This will be added to as we add mroe features to Lambda ( λ )
 
 ### Joshua Caravetta
 ##### First Milestone:
@@ -66,7 +66,7 @@ Here each group member gets a section where they, as an individual, detail what 
 
 ### Norman Mutunga
 ##### First Milestone:
-* Design a user friendly  GUI for Goat Lambda ( λ ) providing an input window 
+* Design a user friendly  GUI for Lambda ( λ ) providing an input window 
 * Provide Compute Button for the output of the processed procedure
 * Provide a Canvas where the output will be displayed
 * Will also give a hand with the parser for the user input.
@@ -75,7 +75,7 @@ Here each group member gets a section where they, as an individual, detail what 
 * Creating procedures for keywords
 
 ## Proposal Presentation Link
-[**Goat Lambda**][Goat-Lambda]
+[**Lambda**][Lambda]
 
 <!-- Links -->
 [piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
