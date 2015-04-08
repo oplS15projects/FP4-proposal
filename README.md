@@ -24,18 +24,16 @@ http://drpetter.se/article_sound.html
 http://music.columbia.edu/cmc/musicandcomputers/chapter4/04_09.php
 
 ### Deliverable and Demonstration
-By the end of this project we will have a working keyboard that produces audio using sine waves. We will implement a
-number of features available for the user to interact with that will alter the sounds produced by the synthesizer.
+By the end of this project we will have a working synthesizer that produces complex sounds using sine waves. We will implement a number of features available for the user to interact with that will alter the sounds produced by the synthesizer.
 
 ### Evaluation of Results
-We will know that we are successful based on if the piano plays the correct notes, sounds good, and has ample
-features.
+We will know that we are successful when have an easy to use synthesizer that is enjoyable to play. The synthesizer should come with several different features that a user can manipulate and the synthesizer should be able to play any combinations keys displayed on the UI.
 
 ## Work Plan and Schedule
-First we will create a working UI that plays very basic sounds. Next, we will begin experimenting with additive synthesis and incorporating different user settings into the UI to manipulate the audio waves. 
+First we will create a working UI that plays very basic sounds. In parallel we will research and experiment with additive synthesis to understand how to incorporate different user settings into the UI to manipulate the audio waves. Development on the UI will continue to ensure that it is visually appealing and intuitive to use. Some interface settings should be implemented at this point.  
 
 ### First Milestone (04-13)
-On this day, we will have a working UI that resembles a keyboard and plays basic tones using the mouse. 
+On this day, we will have a working UI that resembles a keyboard and plays basic tones using the mouse. Research will be done and some basic audio manipulation procedures will be developed.
 
 ### Second Milestone (04-21)
 On this day, we will have changed the basic tones to real sine waves and we will add more functionality to the UI,
@@ -48,6 +46,20 @@ Here each group member gets a section where they, as an individual, detail what 
 project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
 
 ### Stuart Tomkins
+First Milestone
+
+A rudimentary UI layout resembling a keyboard that can play basic notes with mouse clicks.
+
+Second Milestone
+
+A more flshed out keyboard layout that is intuitive to play and visually appealing. It will also feature more complex event handling for processing user input such as playing combinations of keys via the mapping of screen keys to keyboard keys.
+
+Final Deliverable:
+
+The GUI will not be a direct interface into the backend system developed to modify sine waves to play complex sounds.
+
+Overall:
+
 I will be writing the UI for the keyboard, as well as the event handling. This includes clicking the on screen keys
 as well as mapping keys on the keyboard to generate notes. 
 
