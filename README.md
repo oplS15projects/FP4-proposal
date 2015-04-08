@@ -21,60 +21,66 @@ Your team will have two minutes to present. Create presentation with two or thre
 
 (Template follows. You may delete this line and all above it. Please edit the following template to create your report.)
 
-# Project Title: title here (10 words maximum)
+#Project Title: Live or Dice
+
 ### Problem Statement
-Describe your problem, and why it is interesting. 
+  Trying to translate a simple working code into a GUI version to help with visual aesthetics.
 
 ### Problem Analysis
-Explain what approaches from class you will bring to bear on the problem. Be explicit and succinct.
+  Analyzing the code is a must. We as a group will have to understand how the game actually works and the reason why the code is writtin in that way. Then we can start writing code to make a dice algorithm and score keeper. Understanding how to make this interactive and simple as possible will give us an idea on how to make the code work.
 
-### Data set or other source materials
-If you will be working with existing data, where will you get those data from? (Dowload it from a website? access it in a database? create it in a simulation you will build....)
+  *Run the base code
+  *Write a mockup of the GUI (drawing)
+  *Learning how to incorporate the working code with the GUI Library
 
-How will you convert that data into a form usable for your project?  
+### Data set or other source material.
+  We are using a rosetta code (http://rosettacode.org/wiki/Pig_the_dice_game/Player#Racket) as a basis for our coding.
+  It is a simple code that asks for the Players and then asks whether to roll by typing R or pass by typing P.
+  Along with the GUI library (http://docs.racket-lang.org/gui/index.html)
 
-Do your homework here: if you are pulling data from somewhere, actually go download it and look at it. Explain in some detail what your plan is for accomplishing the necessary processing.
 
-If you are using some other starting materails, explain what they are. Basically: anything you plan to use that isn't code.
+  As a group we will be reading up and learning the GUI Library past our exploration analysis, first to learn how GUI can
+  work into the base code then trying to use that and wrap everything together.
+
 
 ### Deliverable and Demonstration
-Explain exactly what you'll have at the end. What will it be able to do at the live demo?
 
-What exactly will you produce at the end of the project? A piece of software, yes, but what will it do? Here are some questions to think about (and answer depending on your application).
+  We should have a working live demo of the game and hope that we can do our own twists to it (like % modifiers or handicaps that will help make the game a little interesting).
+  *Basic buttons for the dice roller
+  *Score window that keeps track of everything.
 
-Will it run on some data, like batch mode? Will you present some analytical results of the processing? How can it be re-run on different source data?
-
-Will it be interactive? Can you show it working? This project involves a live demo, so interactivity is good.
+  We will be able to demonstrate how the game works and run.
 
 ### Evaluation of Results
-How will you know if you are successful? 
-If you include some kind of _quantitative analysis,_ that would be fantastic.
+
+  We should be successful if the following conditions are met...
+    *Working GUI
+    *Running code that works alongside the GUI.
+    *Everything doesn't crash and burn.
 
 ## Work Plan and Schedule
-Explain how you will go from proposal to finished product. Write your general plan here. 
-There are three deliverable milestones to explicitly define, below. The nature of deliverables depend on your project, but may include things like processed data ready for import, core algorithms implemented, interface design prototyped, etc. 
-
-You will be expected to turn in code, documentation, and data (as appropriate) at each of these stages, so take care in writing concrete steps for your schedule. 
-
-In this general plan, and in the deliverables below.
 
 ### First Milestone (04-13)
 What exactly will be turned in on this day? 
+  *The basic GUI for the project
+    *making sure it's aesthetically simple and workable.
 
 ### Second Milestone (04-21)
-What exactly will be turned in on this day? 
+What exactly will be turned in on this day?
+  *The working code and making sure we can incorporate the code into the GUI.
 
 ## Group Responsibilities
-Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
 
-### Susan Scheme
-will write the....
+### Charlie S.
 
-### Leonard Lambda
-will work on...
+### Taner A.
+
+### Long T.
+
+All of us on this group project will equally work on code as well as consult with each other when we are working on the code together.
 
 ## Proposal Presentation Link
-insert your google presentation public link here, so with one click it will open up in the browser and you can present.
+https://docs.google.com/presentation/d/1AdOaTBNekj_zw-hvMF5tReTjxb3HUMFq7ktKxxVfdu8/edit?usp=sharing
 
 <!-- Links -->
 [piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
