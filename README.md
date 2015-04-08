@@ -26,8 +26,8 @@ The general plan is to first construct the framework for the game. This includes
 
 ![screenshot](http://i.imgur.com/Ckhqo2R.png)
 
-Once we have created the basic mechanics of the game, we will move on to implementing the more complicated ones. 
-> WRITE MORE HERE?? (what _exactly_ will we work on next?)
+Once we have created the basic mechanics of the game, we will move on to implementing the more complicated ones. This includes the collision detection of floors, walls, and enemies, a visual indicator of health points and experience, adding enemies to the game, and creating several platforming elements.
+The both of us realize that getting the level to scroll smoothly will likely be challenging so we will make sure this part is completed before moving on. After that we will work on implementing a pause menu with save and resume features.
 
 ### First Milestone (04-13)
 By the first milestone we will have implemented the basic mechanics of the game. This means the user will be able to move right and left and jump. Collision with walls and floors will also be solved at this point. The player will have a visual indicator of how many health points they have. Basic enemies will also be impelmented at this stage and will decrease the players HP on contact. 
