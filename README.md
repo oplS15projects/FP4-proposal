@@ -1,6 +1,8 @@
 # FP4-proposal
 Project Proposal is due 2015-04-08 at 8am
 
+# Team: Synth Loaf
+
 # Project Title: The Sherman Keyboard
 ### Problem Statement
 The emulation of instruments via audio signal processing is a challenging task and racket provides the tools for generating and manipulating simple sine waves through several different libraries. These libraries can be used to create more complex sounds that emulate the characteristics of real life instruments. Our project will be a synthesizer that will give the user the ability to program their own complex sounds by adjusting different settings built into the UI as well as the ability to use interesting pre-configured settings that sound similar to real instruments.
