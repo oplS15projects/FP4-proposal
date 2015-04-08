@@ -25,7 +25,7 @@ The part handed in is the initial layout of the GUI. Code that shows receiving i
 ### Second Milestone (04-21)
 A program that will receive user input and output a related graph based off of it.Code that shows a GUI with the stored data plotted. 
 
-#### Final Milestone
+### Final Milestone
 Finished project to present. It will be able to handle different function inputs and plot them.
 
 ## Group Responsibilities
