@@ -38,7 +38,7 @@ What exactly will be turned in on this day?
 ## Group Responsibilities
 
 ### Patrick Lehane
-I will handle enemy movements, enemy collisions with the player, enemy spells/attacks, display of experience & health, and the experience/level system.
+I will handle enemy movements, enemy collisions with the player, enemy spells/attacks, display of experience & health, and the experience/level system. I will also work on the save/resume feature which will be accessible in the pause menu and the title screen.
 
 ### Andrew Gabriel
 I will write the code for making the player character jump and for detecting collision with the wall and the ground. This will be in time for the first milestone.
