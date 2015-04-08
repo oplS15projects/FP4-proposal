@@ -46,6 +46,9 @@ The work for the project will be split equally between all three members. The sc
 | 2.3 | Derivative Keyword Support Added  | not started |
 | 2.4 | Simplify Keyword Support Added  | not started |
 | 3 | Keyword Linking Table | in progress|
+| 3.1 | Keyword Object Structure | in progress |
+| 3.2 | Keyword Object List  | not started |
+| 3.3 | HOF to Add/Call Keyword Procedures | not started |
 |4| Keyword Procedures | not started |
 |4.1| Plot/Graph Keyword Procedure | not started |
 |4.2| Derivative Keyword Procedures | not started |
