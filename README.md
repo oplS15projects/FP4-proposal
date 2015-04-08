@@ -1,80 +1,57 @@
 # FP4-proposal
 Project Proposal is due 2015-04-08 at 8am
 
-Produce a plan for your final project, and prepare an in-class presentation.
-
-Ask questions, as always, [on piazza!][piazza]
-
-## Written Proposal Instructions
-
-Teams will submit ONE written proposal, with sections that each member has done individually detailing their proposed contributions. The submission will be on github, as a pull request of this very file. Below is a template proposal report.
-
-You should be proposing something that you have high confidence that you can achieve, and the proposal should project that confidence.
-The proposal should be no longer than necessary, but long enough to include critical detail. Three pages is appropriate. Diagrams are welcome. 
-
-Remember, you can do some neat [formatting things with Markdown.][markdown]
-
-## In-Class Presentation Instructions
-Teams will each deliver an in-class presentation. **Presentations will be Wednesday, April 8** (and Friday, April 10 as necessary). The presentation material is due on April 8 by 9 am for everybody. [See piazza for full schedule.][piazza]
-
-Your team will have two minutes to present. Create presentation with two or three slides. Make the slides in google drive, and share the public-viewable link at the bottom of this report. The day of presentations, I'll have the list of links on the display computer, so each team can simply click their link and begin. 
-
-(Template follows. You may delete this line and all above it. Please edit the following template to create your report.)
-
-# Project Title: title here (10 words maximum)
+# Project Title: Data Structure GUI
 ### Problem Statement
-Describe your problem, and why it is interesting. 
+The problem that I am trying to solve is the difficulty in visualizing data structures in Scheme. This is particularly important for programmers who are new to Scheme. In order to really understand what is happening behind the scenes, programmers need a picture of the structures they are working with. Drawing these structures is tedious and error prone. I propose that creating a tool to display and edit data structures graphically would provide a faster and more accurate way of introducing data structures in Scheme.
 
 ### Problem Analysis
-Explain what approaches from class you will bring to bear on the problem. Be explicit and succinct.
+I will use several approaches from class to solve this problem. The first is abstraction. My goal for this project is to provide a simple method for entry-level users to load, view, edit, and save a data structure. This means using abstraction to shield the inner complexities of the solution. The second approach is building a solution up from smaller components. Each diagram is built up of smaller drawings including a node diagram, terminal node diagram, data block, and various arrows. Based on the the tools Scheme provides to manipulate data structures, my third approach will be using high order procedures such as map and filter to edit individual elements.
 
 ### Data set or other source materials
-If you will be working with existing data, where will you get those data from? (Dowload it from a website? access it in a database? create it in a simulation you will build....)
-
-How will you convert that data into a form usable for your project?  
-
-Do your homework here: if you are pulling data from somewhere, actually go download it and look at it. Explain in some detail what your plan is for accomplishing the necessary processing.
-
-If you are using some other starting materails, explain what they are. Basically: anything you plan to use that isn't code.
+I am not using any starting materials other than the Racket GUI and Racket Drawing toolkits. The Racket GUI toolkit will be used to create the frame for the application and handle user interaction. The application frame will make calls through call-backs to the Racket Drawing tool-kit. Button clicks will trigger different drawing functions to display the data structure.
 
 ### Deliverable and Demonstration
-Explain exactly what you'll have at the end. What will it be able to do at the live demo?
-
-What exactly will you produce at the end of the project? A piece of software, yes, but what will it do? Here are some questions to think about (and answer depending on your application).
-
-Will it run on some data, like batch mode? Will you present some analytical results of the processing? How can it be re-run on different source data?
-
-Will it be interactive? Can you show it working? This project involves a live demo, so interactivity is good.
+At the end of the project period, I will have a simple application to load a single data structure, draw it, provide a way to edit the data in each element, and save it. This will occur through the use of a grid of interchangeable diagram pieces based on a supporting data table. Exact implementation details will be available as different challenges are encountered and overcome. For example, the grid approach is subject to collisions, meaning a structure trying to store two different elements in the same grid cell. Solutions to this and similar problems will ultimately determine the look, feel, and extended capabilities of the finished product. Regardless of the implementation, in a live demo it will allow users to load, view, edit, and save a data structure. The solution will be very interactive as the user will be manipulating the data and then saving it.
 
 ### Evaluation of Results
-How will you know if you are successful? 
-If you include some kind of _quantitative analysis,_ that would be fantastic.
+I will know if I am successful if displaying the data structure in Racket reflects the changes made in the GUI. For example:
+```
+(define a (list 1 2 3))
+(data-editor a) //Display app
+//User changes '3' to '4'
+//User saves and exits
+a  //Prints '(1 2 4)
+```
 
 ## Work Plan and Schedule
-Explain how you will go from proposal to finished product. Write your general plan here. 
-There are three deliverable milestones to explicitly define, below. The nature of deliverables depend on your project, but may include things like processed data ready for import, core algorithms implemented, interface design prototyped, etc. 
-
-You will be expected to turn in code, documentation, and data (as appropriate) at each of these stages, so take care in writing concrete steps for your schedule. 
-
-In this general plan, and in the deliverables below.
+I plan on breaking the project up into three parts. The first part is creating the supporting procedures and algorithms to facilitate drawing and storing data. This is the core of the project. Once these are established, the second part of the project is creating the high order procedure to draw the structure and re-save the structure. Once these components are in place, the third part of the project will be adding GUI support. In this stage I will create buttons and assign call-backs. 
 
 ### First Milestone (04-13)
-What exactly will be turned in on this day? 
+* Completed diagram components
+* Drawing procedures for components
+* List of defined steps for drawing
+* List of defined steps for saving
+* List of defined steps for resolving collisions
 
 ### Second Milestone (04-21)
-What exactly will be turned in on this day? 
+* Completed drawing algorithm code
+* Completed saving algorithm code
+* Completed collision algorithm code
+* At this point, a data structure should be completely drawable in the Racket
+ 
+### Final Deadline
+* Completed GUI prototype using the procedures and algorithms above
+* User documentation
 
 ## Group Responsibilities
-Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
+I will be working alone on this project and completing all the necessary code.
 
-### Susan Scheme
-will write the....
-
-### Leonard Lambda
-will work on...
+## Sample diagrams
+https://drive.google.com/folderview?id=0B7j4TU2jQ5KxcWF5Z1ZTbVQ2Q1k&usp=sharing
 
 ## Proposal Presentation Link
-insert your google presentation public link here, so with one click it will open up in the browser and you can present.
+https://docs.google.com/presentation/d/13hk-3AIIiUzXvLPeod1FAFwjMrDfpLaQEIQkS0LslM4/edit?usp=sharing
 
 <!-- Links -->
 [piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
