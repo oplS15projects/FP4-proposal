@@ -21,34 +21,21 @@ Your team will have two minutes to present. Create presentation with two or thre
 
 (Template follows. You may delete this line and all above it. Please edit the following template to create your report.)
 
-# Project Title: title here (10 words maximum)
+# Project Title: Da Dank Decoder
 ### Problem Statement
-Describe your problem, and why it is interesting. 
+Data security is a large topic in computer science. Therefore crpytography is useful in concealing fragile information such as passwords. For example a database of unencrypted passwords. If a hacker were to gain access to this database, they would be able to use the passwords with ease. However, if the passwords were encrypted, the hacker would then have to find a way to decrype the passwords before they could be used. This acts as an extra line of defense against cyber-attacks. Often times encrypting things can prevent any harm from being done, or delaying the 'hacker' from doing any damage before the host realizes that there was a breach.
 
 ### Problem Analysis
-Explain what approaches from class you will bring to bear on the problem. Be explicit and succinct.
+We will use a lot of higher-order procedures. The basic stratgy of our encryption will be to take the message, convert it to a sequence of characters and then use `map` to manipulate that list.
 
 ### Data set or other source materials
-If you will be working with existing data, where will you get those data from? (Dowload it from a website? access it in a database? create it in a simulation you will build....)
-
-How will you convert that data into a form usable for your project?  
-
-Do your homework here: if you are pulling data from somewhere, actually go download it and look at it. Explain in some detail what your plan is for accomplishing the necessary processing.
-
-If you are using some other starting materails, explain what they are. Basically: anything you plan to use that isn't code.
+We will use documentation on ciphers, namely the Caear cipher and the Vigenere cipher.
 
 ### Deliverable and Demonstration
-Explain exactly what you'll have at the end. What will it be able to do at the live demo?
-
-What exactly will you produce at the end of the project? A piece of software, yes, but what will it do? Here are some questions to think about (and answer depending on your application).
-
-Will it run on some data, like batch mode? Will you present some analytical results of the processing? How can it be re-run on different source data?
-
-Will it be interactive? Can you show it working? This project involves a live demo, so interactivity is good.
+We will make a proof of concept for ciphers. We will use the bank account example from class. We will make a bank client, you can create an account. You will be able to withdraw and deposit money in the account... if you have the password. The usernames, passwords, and amount will be saved. The passwords will be encrypted.
 
 ### Evaluation of Results
-How will you know if you are successful? 
-If you include some kind of _quantitative analysis,_ that would be fantastic.
+If we can encrypt and decrypt messages/passwords.
 
 ## Work Plan and Schedule
 Explain how you will go from proposal to finished product. Write your general plan here. 
@@ -59,22 +46,20 @@ You will be expected to turn in code, documentation, and data (as appropriate) a
 In this general plan, and in the deliverables below.
 
 ### First Milestone (04-13)
-What exactly will be turned in on this day? 
+A test GUI that will decipher caeser and vigenere ciphers.
 
 ### Second Milestone (04-21)
-What exactly will be turned in on this day? 
+GUI which will take password and type of encryption and will allow you to manipulate a bank account.
 
 ## Group Responsibilities
-Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
+Tyler: Incharge of GUI for test GUI and bank.
 
-### Susan Scheme
-will write the....
+Michael: Incharge of Caesar cipher and part of bank code.
 
-### Leonard Lambda
-will work on...
+Matt: Incharge of Vigenere cipher and part of bank code.
 
 ## Proposal Presentation Link
-insert your google presentation public link here, so with one click it will open up in the browser and you can present.
+[Google Presentation](https://docs.google.com/presentation/d/1CqUN65wKD8UlQcG6Gpj7xlaJtX4hBMUDCit0NEeUyRY/edit?usp=sharing)
 
 <!-- Links -->
 [piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
