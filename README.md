@@ -1,81 +1,74 @@
-# FP4-proposal
-Project Proposal is due 2015-04-08 at 8am
-
-Produce a plan for your final project, and prepare an in-class presentation.
-
-Ask questions, as always, [on piazza!][piazza]
-
-## Written Proposal Instructions
-
-Teams will submit ONE written proposal, with sections that each member has done individually detailing their proposed contributions. The submission will be on github, as a pull request of this very file. Below is a template proposal report.
-
-You should be proposing something that you have high confidence that you can achieve, and the proposal should project that confidence.
-The proposal should be no longer than necessary, but long enough to include critical detail. Three pages is appropriate. Diagrams are welcome. 
-
-Remember, you can do some neat [formatting things with Markdown.][markdown]
-
-## In-Class Presentation Instructions
-Teams will each deliver an in-class presentation. **Presentations will be Wednesday, April 8** (and Friday, April 10 as necessary). The presentation material is due on April 8 by 9 am for everybody. [See piazza for full schedule.][piazza]
-
-Your team will have two minutes to present. Create presentation with two or three slides. Make the slides in google drive, and share the public-viewable link at the bottom of this report. The day of presentations, I'll have the list of links on the display computer, so each team can simply click their link and begin. 
-
-(Template follows. You may delete this line and all above it. Please edit the following template to create your report.)
-
-# Project Title: title here (10 words maximum)
+# Project Title: RacketSynth
 ### Problem Statement
-Describe your problem, and why it is interesting. 
+The RSound sound engine is a powerful tool. It allows for the representation, reading, writing, playing and manipulation of
+sounds. Unfortunately, it is rather complicated and difficult to use. Our plan is to simplifiy it's use by wrapping it with
+a graphical user interface. This will be done using the Racket GUI Toolkit. 
+
+We would also like to create a playable instrument using the Racket GUI Toolkit and RSound. Users can use their keyboard and the
+interface mentioned above to control sounds. 
 
 ### Problem Analysis
-Explain what approaches from class you will bring to bear on the problem. Be explicit and succinct.
+We will need to take the difficult process of creating particular types of sound waves at particular frequencies and abstract it
+in to simple procedures. These procedures will then be called by our user interface which will present a clear, obvious way to
+create sounds. 
+
+This will allow users to more expressively control the RSound library. 
 
 ### Data set or other source materials
-If you will be working with existing data, where will you get those data from? (Dowload it from a website? access it in a database? create it in a simulation you will build....)
-
-How will you convert that data into a form usable for your project?  
-
-Do your homework here: if you are pulling data from somewhere, actually go download it and look at it. Explain in some detail what your plan is for accomplishing the necessary processing.
-
-If you are using some other starting materails, explain what they are. Basically: anything you plan to use that isn't code.
+We do not plan on using any external data for our project as it is not needed to achieve our goals.  
 
 ### Deliverable and Demonstration
-Explain exactly what you'll have at the end. What will it be able to do at the live demo?
+The final version of our project will, ideally, have an interface for creating various types of sound waves at selected
+frequencies. These could be sine, sawtooth, square, or pulse waves. The frequencies will have reasonable upper and lower limits
+in order to protect the user's audio hardware and their ears. If we have time, we would like to add the layering of multiple
+sounds and different values. Theoretically, these layers could be used to synthesize any sound. 
 
-What exactly will you produce at the end of the project? A piece of software, yes, but what will it do? Here are some questions to think about (and answer depending on your application).
+We will also create a way for the frequencies to be set by mapping keyboard inputs to particular values. This will allow a user
+to use their computer's keyboard as a playable instrument. 
 
-Will it run on some data, like batch mode? Will you present some analytical results of the processing? How can it be re-run on different source data?
-
-Will it be interactive? Can you show it working? This project involves a live demo, so interactivity is good.
+We will show all of the working freatures in our final demonstration. 
 
 ### Evaluation of Results
-How will you know if you are successful? 
-If you include some kind of _quantitative analysis,_ that would be fantastic.
+As the main purpose of this assignment is to make RSound easier to use, (though will a reduced functionality), we will conduct
+brief usability tests. This will consist of asking friends, both with substantial experience with computers and without, to use
+our program and describe the experience. We may also give them a short list of simple tasks to complete. Also, we will have the
+program tested by a keyboard or piano player to see if they can actually get some music out of the program. 
 
 ## Work Plan and Schedule
-Explain how you will go from proposal to finished product. Write your general plan here. 
-There are three deliverable milestones to explicitly define, below. The nature of deliverables depend on your project, but may include things like processed data ready for import, core algorithms implemented, interface design prototyped, etc. 
+The first step in our plan will be to create a simple mock-up of the user interface. This may go through different version as it must have a design that we all agree on. After this has been decied, we will use it as a model to create the actual user interface. After the interface has the correct look and feel, we will all procedures to detect user input. These can be a simple as generating messages to the interpreter such as 'User has pressed key x.', or 'User has selected radio-button y.' These procedures will later be used to connect to the RSound library. 
 
-You will be expected to turn in code, documentation, and data (as appropriate) at each of these stages, so take care in writing concrete steps for your schedule. 
+After the interface is completed, we will begin simplifying the RSound wave generation procedures. We will do this by limiting their options and generalizing the procedure calls. The new procedures will generate sine, sawtooth, square, and pulse waves within a specified frequency range. Again, this limits the level of freedom a user has to use the RSound library, but simplifies the proccess considerably. 
 
-In this general plan, and in the deliverables below.
+After these simplifed proceures have been written we will modify the user-input-detection procedures to create sounds. If all goes to plan, this will essentially complete the project. 
 
 ### First Milestone (04-13)
-What exactly will be turned in on this day? 
+We would like to have the user interface completed, though with very little actual functionality. However, any user actions in
+the interface shoud trigger special test events so that we know the user actions are being detected. This could be a test as
+simple as displaying a string in the interpreter when the user presses a particular button. 
+
+This will not yet include any of the keyboard instrument functionality. 
 
 ### Second Milestone (04-21)
-What exactly will be turned in on this day? 
+The user interface should now be able to call procedures that create sounds according to the user's specifications. The sound
+creation should be achieved through simple, expressive procedure calls. 
+
+We will also have the interface for the keyboard instrument working. As we will need to take keyboard input, a good test would 
+be echoing whatever key is pressed in the interpreter, again, to make sure that user input is being properly detected. 
+
 
 ## Group Responsibilities
 Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
 
-### Susan Scheme
-will write the....
+### David Lordan
+Along with the rest of the team, I will focus on getting the user interface completely implemented for the first milestone, which is quickly approaching. I will create a simple mock-up which the rest of the team and I will try to recreate.
 
-### Leonard Lambda
-will work on...
+After the first milestone I will working on creating procedures that can simplify the RSound wave generation procedures. After these are working properly I will use the procedure calls generated by the interface to connect the two libraries together. 
+
+### Kevin Ornellas
+Prior to the first milestone, I will shift gears and research the Racket GUI toolkit library. I will then assess and examine the model made for improvements. I will help make the actual user interface. I will also participate in adding buttons to link procedures to the graphical user interface.
+
+### Steven Scheffelaar Klots
+Work on a portion of the UI for the first milestone and then shift focus to working on implementing and interfacing with the Rsound portion of the project.
 
 ## Proposal Presentation Link
-insert your google presentation public link here, so with one click it will open up in the browser and you can present.
-
-<!-- Links -->
-[piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
-[markdown]: https://help.github.com/articles/markdown-basics/
+https://docs.google.com/presentation/d/1-bbfe2ajKv8jIQAbIxH3mnHi5O2b5MBoa98UKJFl-b0/edit#slide=id.gad53d2770_0_33
