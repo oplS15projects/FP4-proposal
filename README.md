@@ -68,7 +68,7 @@ Here each group member gets a section where they, as an individual, detail what 
 ### Norman Mutunga
 ##### First Milestone:
 * Design a user friendly  GUI for Goat Lambda ( λ ) providing an input window 
-* Provide 2D and 3D Buttons for the output of the processed procedure
+* Provide Compute Button for the output of the processed procedure
 * Provide a Canvas where the output will be displayed
 * Will also give a hand with the parser for the user input.
 
