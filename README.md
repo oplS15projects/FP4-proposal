@@ -32,11 +32,12 @@ I plan on breaking the project up into three parts. The first part is creating t
 * Drawing procedures for components
 * List of defined steps for drawing
 * List of defined steps for saving
-* Collision algorithm code
+* List of defined steps for resolving collisions
 
 ### Second Milestone (04-21)
 * Completed drawing algorithm code
 * Completed saving algorithm code
+* Completed collision algorithm code
 * At this point, a data structure should be completely drawable in the Racket
  
 ### Final Deadline
