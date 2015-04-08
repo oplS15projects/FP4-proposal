@@ -29,9 +29,9 @@ Your team will have two minutes to present. Create presentation with two or thre
 ### Problem Analysis
   Analyzing the code is a must. We as a group will have to understand how the game actually works and the reason why the code is writtin in that way. Then we can start writing code to make a dice algorithm and score keeper. Understanding how to make this interactive and simple as possible will give us an idea on how to make the code work.
 
-  *Run the base code
-  *Write a mockup of the GUI (drawing)
-  *Learning how to incorporate the working code with the GUI Library
+* Run the base code
+* Write a mockup of the GUI (drawing)
+* Learning how to incorporate the working code with the GUI Library
 
 ### Data set or other source material.
   We are using a rosetta code (http://rosettacode.org/wiki/Pig_the_dice_game/Player#Racket) as a basis for our coding.
@@ -45,29 +45,29 @@ Your team will have two minutes to present. Create presentation with two or thre
 
 ### Deliverable and Demonstration
 
-  We should have a working live demo of the game and hope that we can do our own twists to it (like % modifiers or handicaps that will help make the game a little interesting).
-  *Basic buttons for the dice roller
-  *Score window that keeps track of everything.
+* We should have a working live demo of the game and hope that we can do our own twists to it (like % modifiers or handicaps that will help make the game a little interesting).
+  * Basic buttons for the dice roller
+  * Score window that keeps track of everything.
 
   We will be able to demonstrate how the game works and run.
 
 ### Evaluation of Results
 
-  We should be successful if the following conditions are met...
-    *Working GUI
-    *Running code that works alongside the GUI.
-    *Everything doesn't crash and burn.
+* We should be successful if the following conditions are met...
+    * Working GUI
+    * Running code that works alongside the GUI.
+    * Everything doesn't crash and burn.
 
 ## Work Plan and Schedule
 
 ### First Milestone (04-13)
 What exactly will be turned in on this day? 
-  *The basic GUI for the project
-    *making sure it's aesthetically simple and workable.
+* The basic GUI for the project
+  * making sure it's aesthetically simple and workable.
 
 ### Second Milestone (04-21)
 What exactly will be turned in on this day?
-  *The working code and making sure we can incorporate the code into the GUI.
+* The working code and making sure we can incorporate the code into the GUI.
 
 ## Group Responsibilities
 
@@ -77,7 +77,9 @@ What exactly will be turned in on this day?
 
 ### Long T.
 
-All of us on this group project will equally work on code as well as consult with each other when we are working on the code together.
+* All of us on this group project will equally work on code as well as consult with each other when we are working on the code together.
+
+  * For example, each of us are working on different parts of the GUI, and make sense of it together.
 
 ## Proposal Presentation Link
 https://docs.google.com/presentation/d/1AdOaTBNekj_zw-hvMF5tReTjxb3HUMFq7ktKxxVfdu8/edit?usp=sharing
