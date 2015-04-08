@@ -28,7 +28,7 @@ If you take a look around your classroom, whether you be the teacher or a studen
 Apart from that, Nick planned on building something like this in PHP for his own site anyways. Might as well build it in Racket and get class credit, as well as get to present it to the class and work with a team.
 
 ### Problem Analysis
-Well the obvious approach is the utilization of the Scheme programming language, specifically Racket. We will be utilizing two libraries to achieve our end result. Something that wasn't specifically taught in class but will be used in abstraction, and lots of it, as much as possible. We're hoping to abstract all HTML and front-end interface out from the logic, thus achieving a separation of concerns.
+Well the obvious approach is the utilization of the Scheme programming language, specifically Racket. We will be utilizing two libraries to achieve our end result. Something that will be heavily used is abstraction. We're hoping to abstract all HTML and front-end interface out from the logic, thus achieving a separation of concerns.
 
 ### Data set or other source materials
 We will be utilizing the Riot API to pull player data and game data to display statistics on a web page. The primary trick is grabbing the data and manipulating it to get what we want. An example is to get a players rank, it's not simply a single query, you have to search for them within the League that they are in, and then return their rank from there. It's actually kind of unnecessarily difficult, but will be achieved nonetheless.
