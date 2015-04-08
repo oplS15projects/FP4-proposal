@@ -1,6 +1,8 @@
 
 # Project Title: Henriette the Witch
 ### Problem Statement
+We will be making a 2D side-scrolling game. Our plan is to get rather involved, including a number of mechanics. Gameplay will include maneuvering around obstacles, attacking enemies using spells, and gaining expeirence points to level up. The ultimate goal of the game is to reach the right side of each stage.
+
 * An attempt to create a 2 D Side Scrolling game with the 2htdp/universe library. When using the 2htdp/univese library we manipulate what are called “WorldState”s; These “WorldState”s represent the current state of the program and in our program also choose which maps are to be drawn on the screen. The “big-bang” procedure drives the entire program around so that we can have an interactive product; “big-bang” expects us to hand procedures to it that will handle creating new “WorldState”s, key-handlers, and draw procedures. 
 * Therefore, we need to handle drawing the map, player movement, collisions, etc. so that "big-bang" will know what to do with it when it comes to the next state, every "tick" we have to update all the sprites and map.
 
@@ -8,7 +10,7 @@
 For this project we will have to make use of higher order procedures such as foldr, map, filter, etc. for when we transition between world states and when we are redrawing the map/level. We will also have to seperate our code into sprites, entities, maps, and our procedures which we hand to "big-bang"; therefore we are building an abstraction barrier between our helper procedures and all of our game data.
 
 ### Data set or other source materials
-All of our sprites will have to come from an image file which will be saved locally within the game directory. We plan to provide the graphics for the game ourselves, but because programming is our priority, we may end up using graphics from any source online. 
+All of our sprites will have to come from a image files which will be saved locally within the game directory. We plan to provide the graphics for the game ourselves, but because programming is our priority, we may end up using graphics from any source online. 
 
 We plan to have a feature which will allow a user to save their current status in the game to a file which they can later read from to resume their progress.
 
@@ -24,8 +26,11 @@ The general plan is to first construct the framework for the game. This includes
 
 ![screenshot](http://i.imgur.com/Ckhqo2R.png)
 
+Once we have created the basic mechanics of the game, we will move on to implementing the more complicated ones. 
+> WRITE MORE HERE?? (what _exactly_ will we work on next?)
+
 ### First Milestone (04-13)
-By the first milestone we will have implemented the basic mechanics of the game. This means the user will be able to move right and left and jump. Collision with walls and floors will also be solved at this point. The player will have a visual indicator of how many health points they have. Basic enemies will also be implmented at this stage and will decrease the players HP on contact. 
+By the first milestone we will have implemented the basic mechanics of the game. This means the user will be able to move right and left and jump. Collision with walls and floors will also be solved at this point. The player will have a visual indicator of how many health points they have. Basic enemies will also be impelmented at this stage and will decrease the players HP on contact. 
 
 ### Second Milestone (04-21)
 What exactly will be turned in on this day? 
@@ -39,11 +44,9 @@ Factoring in momentum on the main character can be something
 4. I also think we should have some sort of experience and leveling up system if only to further justify having a save system.
 
 ### Andrew Gabriel
+I will write the code for making the player character jump and for detecting collision with the wall and the ground. This will be in time for the first milestone.
 
-1. I would like to have the screen actually scroll properly (like, not just going to the next part when you reach the side of the screen).
-2. Programing the jumping might also prove to be difficult.
-
-5. Programming a pause menu is another big thing. In the pause menu could be weapons and an option to save.
+In time for the second milestone I will have impelmented smooth side-scrolling of levels that are wider than the screen width. I will program the spells that the player character can use, as well as the pause menu. The pause feature will allow you to save and to select spells.
 
 ## Proposal Presentation Link
 insert your google presentation public link here, so with one click it will open up in the browser and you can present.
