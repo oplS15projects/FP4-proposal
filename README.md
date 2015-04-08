@@ -63,8 +63,9 @@ Web Server & Front end interface integrated, data passed between two cleanly
 Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
 
 ### Nick Lombardi
-Front end interface design
-HTML & CSS coding
+For my part, I'll be starting with a deisgn mockup of how the interface will be layed out. That'll be done mostly on paper. After that's been finalized, I'll start putting some thought into colors and opacities. Once that's been decided on by running it by the team, I'll begin coding the front-end of the interface in HTML & CSS. Maybe I'll even throw some JavaScript in there, who knows. A little bit of animation might go a long way for the end user. Once I have the interface completed, I'll be working directly with Ron & Josh to bring this project together.
+
+During this whole process I'll be Project Manager to make sure everything comes together nicely and ends meet. My part will not be solely design, I'll be heavily involved in both other parts.
 
 ### Joshua Semedo
 For our project, I'm going to be the one responsible for getting and manipulating the data we're displaying.  I'm going to be pulling it from Riot Games' API. This will include stats like KDA, wins, losses, games played, etc. but also more indepth stats, like how well you play a certain champions or particular achievements you've met with them.  I will be taking the input from the website, then santizing it and putting it in a url, then parsing the JSON from that url into relevant chunks, where it will eventually be displayed on the webpage.
