@@ -46,11 +46,11 @@ Here each group member gets a section where they, as an individual, detail what 
 project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
 
 ### Stuart Tomkins
-First Milestone
+First Milestone:
 
 A rudimentary UI layout resembling a keyboard that can play basic notes with mouse clicks.
 
-Second Milestone
+Second Milestone:
 
 A more flshed out keyboard layout that is intuitive to play and visually appealing. It will also feature more complex event handling for processing user input such as playing combinations of keys via the mapping of screen keys to keyboard keys.
 
