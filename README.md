@@ -88,10 +88,10 @@ Will be responsible for the production of results, so will be focusing on (Items
 Together we will integrate our seperate objects into the application. (Items 7 - 7.1)
 
 ## Proposal Presentation Link
-[link][proposal]
+[proposal][proposal]
 
 <!-- Links -->
 [piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
 [markdown]: https://help.github.com/articles/markdown-basics/
 [json]: http://jsonlint.com/
-[link]: http://www.josefflores.com/proposal/
+[proposal]: http://www.josefflores.com/proposal/
