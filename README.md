@@ -71,4 +71,4 @@ will work on...
 Work on a portion of the UI for the first milestone and then shift focus to working on implementing and interfacing with the Rsound portion of the project.
 
 ## Proposal Presentation Link
-insert your google presentation public link here, so with one click it will open up in the browser and you can present.
+https://docs.google.com/presentation/d/1NWmTahnuF4R9cbuprs-59_jhqSsRfMdPz_WfVEbSQ7M/edit#slide=id.gad538c0fc_0_12
