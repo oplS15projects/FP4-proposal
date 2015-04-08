@@ -45,7 +45,7 @@ Since our project will involve mathematics it will be easy to prove that the res
 
 ## Work Plan and Schedule
 
-Steps to complete
+### Plan
 
 |   | task | state |
 |---|------|-------|
@@ -70,9 +70,6 @@ Steps to complete
 |7  | Integrate objects | not started |
 |7.1| Generate proof of success| not started |
 
-You will be expected to turn in code, documentation, and data (as appropriate) at each of these stages, so take care in writing concrete steps for your schedule. 
-
-In this general plan, and in the deliverables below.
 
 ### First Milestone (04-13)
 During the First Milestone we will have turned in Client related items (Items 1 - 2.2) as well as the Mathematics portion (Items 5 - 5.2)  
