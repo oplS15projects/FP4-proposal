@@ -150,5 +150,5 @@ Then, for the final turn in, hopefully the sliding blocks and more levels will b
 
 
 ## Proposal Presentation Link
-[Click Here For Presentation]: https://docs.google.com/presentation/d/1d_P1R_vQh7qjO16h9aUuUlwRHRxbdTPqipOFfdZUeWE/edit?usp=sharing
+[Click Here For Presentation](https://docs.google.com/presentation/d/1d_P1R_vQh7qjO16h9aUuUlwRHRxbdTPqipOFfdZUeWE/edit?usp=sharing)
 
