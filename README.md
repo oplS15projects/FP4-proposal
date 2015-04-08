@@ -41,6 +41,10 @@ The work for the project will be split equally between all three members. The sc
 |2| User Input Parser | in progress |
 | 3 | Keyword Linking Table | in progress|
 |4| Keyword Procedures | not started |
+|4.1| Plot/Graph Keyword Procedure | not started |
+|4.2| Derivative Keyword Procedures | not started |
+|4.3| Simplify Keyword Procedures | not started |
+
 
 ### First Milestone (04-13)
 * The complete GUI layout will be complete and ready to be hooked to the back end processing code.
