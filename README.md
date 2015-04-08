@@ -75,7 +75,7 @@ Below is a break down of what each person is in charge of during the project. Th
 * Creating procedures for keywords
 
 ## Proposal Presentation Link
-[**Lambda**][Lambda]
+[**Lambda**][Goat-Lambda]
 
 <!-- Links -->
 [piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
