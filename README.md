@@ -33,12 +33,14 @@ Once we have created the basic mechanics of the game, we will move on to impleme
 By the first milestone we will have implemented the basic mechanics of the game. This means the user will be able to move right and left and jump. Collision with walls and floors will also be solved at this point. The player will have a visual indicator of how many health points they have. Basic enemies will also be impelmented at this stage and will decrease the players HP on contact. 
 
 ### Second Milestone (04-21)
-What exactly will be turned in on this day? 
+For the second milestone we should have completely finished the side-scrolling feature so that the user can move right and progress through the game as well as at least one complete stage for the user to play through. Some platforming elements such as falls, traps, and obstacles to avoid will also be built into the maps by this point. The pause menu with the option to save will also be finished.
 
 ## Group Responsibilities
 
 ### Patrick Lehane
-I will handle enemy movements, enemy collisions with the player, enemy spells/attacks, display of experience & health, and the experience/level system. I will also work on the save/resume feature which will be accessible in the pause menu and the title screen.
+By the first milestone, I will have completed generating enemies on the map and the enemy collisions with the player. I will also have a basic display of health at this point.
+
+For the second milestone, I should have finished enemy movements, the enemy spells and attacks, the experience/level system, and the display of experience. I should also have completed the save/resume feature which will be accessible in the pause menu and the title screen.
 
 ### Andrew Gabriel
 I will write the code for making the player character jump and for detecting collision with the wall and the ground. This will be in time for the first milestone.
