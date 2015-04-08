@@ -1,9 +1,9 @@
 # FP4-proposal
 Project Proposal is due 2015-04-08 at 8am
 
-# Project Title: Data Editing GUI
+# Project Title: Data Structure GUI
 ### Problem Statement
-The problem that I am trying to solve is the difficulty in visualizing data structures in Scheme. This is particularly important for programmers who are new to Scheme. In order to really understand what is happening behind the scenes, programmers need a picture of the structures they are working with. Drawing these structures is tedious and error prone. I propose that creating a tool to display and edit data structures graphically would provide a faster and more accurate way of introducing data structures in scheme.
+The problem that I am trying to solve is the difficulty in visualizing data structures in Scheme. This is particularly important for programmers who are new to Scheme. In order to really understand what is happening behind the scenes, programmers need a picture of the structures they are working with. Drawing these structures is tedious and error prone. I propose that creating a tool to display and edit data structures graphically would provide a faster and more accurate way of introducing data structures in Scheme.
 
 ### Problem Analysis
 I will use several approaches from class to solve this problem. The first is abstraction. My goal for this project is to provide a simple method for entry-level users to load, view, edit, and save a data structure. This means using abstraction to shield the inner complexities of the solution. The second approach is building a solution up from smaller components. Each diagram is built up of smaller drawings including a node diagram, terminal node diagram, data block, and various arrows. Based on the the tools Scheme provides to manipulate data structures, my third approach will be using high order procedures such as map and filter to edit indiviual elements.
@@ -46,8 +46,11 @@ I plan on breaking the project up into three parts. The first part is creating t
 ## Group Responsibilities
 I will be working alone on this project and completing all the necessary code.
 
+## Sample diagrams
+https://drive.google.com/folderview?id=0B7j4TU2jQ5KxcWF5Z1ZTbVQ2Q1k&usp=sharing
+
 ## Proposal Presentation Link
-insert your google presentation public link here, so with one click it will open up in the browser and you can present.
+https://docs.google.com/presentation/d/13hk-3AIIiUzXvLPeod1FAFwjMrDfpLaQEIQkS0LslM4/edit?usp=sharing
 
 <!-- Links -->
 [piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
