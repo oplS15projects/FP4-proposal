@@ -67,8 +67,7 @@ Front end interface design
 HTML & CSS coding
 
 ### Joshua Semedo
-Manipulating the Riot API to collect the following stats:
-Name, Level, Tier, LP, Recent Games, Wins, Losses, Kills, Deaths, Assists, ect
+For our project, I'm going to be the one responsible for getting and manipulating the data we're displaying.  I'm going to be pulling it from Riot Games' API. This will include stats like KDA, wins, losses, games played, etc. but also more indepth stats, like how well you play a certain champions or particular achievements you've met with them.  I will be taking the input from the website, then santizing it and putting it in a url, then parsing the JSON from that url into relevant chunks, where it will eventually be displayed on the webpage.
 
 ### Ron
 Setup the web server and figure out how to pass data from racket variables to templates that have been built by Nick.
