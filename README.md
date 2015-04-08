@@ -22,7 +22,7 @@ We are successful if our game has fully functional user interactivity so they ca
 
 The general plan is to first construct the framework for the game. This includes making controls that feel comfortable to the user, making the level scroll smoothly as the player advances through it, and the drawing and updating of the map, player, and any enemies. We have already succeeded in displaying the map and player character as shown in this screenshot:
 
-> screenshot
+![screenshot](http://i.imgur.com/Ckhqo2R.png)
 
 ### First Milestone (04-13)
 By the first milestone we will have implemented the basic mechanics of the game. This means the user will be able to move right and left and jump. Collision with walls and floors will also be solved at this point. The player will have a visual indicator of how many health points they have. Basic enemies will also be implmented at this stage and will decrease the players HP on contact. 
