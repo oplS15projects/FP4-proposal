@@ -93,5 +93,5 @@ Together we will integrate our seperate objects into the application. (Items 7 -
 <!-- Links -->
 [piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
 [markdown]: https://help.github.com/articles/markdown-basics/
-[json]:http://jsonlint.com/
-[link]:http://proposal-link.com/
+[json]: http://jsonlint.com/
+[link]: http://www.josefflores.com/proposal/
