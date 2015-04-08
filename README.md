@@ -85,7 +85,7 @@ Will be responsible for the transmission and interpretation of data, so will be 
 Will be responsible for the production of results, so will be focusing on (Items 5 - 6.2)
 
 ### Joint
-Together we will integrate our seperate objects into the application.
+Together we will integrate our seperate objects into the application. (Items 7 - 7.1)
 
 ## Proposal Presentation Link
 [link][proposal]
