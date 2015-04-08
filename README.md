@@ -16,6 +16,7 @@ The analytical results that will arise from processing will be given by an inter
 ### Evaluation of Results
 We will be successful if a user can input a function(s), click a button, and then see the function(s) plotted.
 
+
 ## Work Plan and Schedule
 The general plan for the project is to divide it into three parts. The first part focuses on ascertaining input from GUI, parsing that data, and storing it correctly. The second part primarily focuses on taking that data and displaying it back to the window. And the final part focuses on integrating more functions to plot and adding the options of graphical styling and customization.
 
@@ -28,6 +29,7 @@ A program that will receive user input and output a related graph based off of i
 ### Final Milestone
 Finished project to present. It will be able to handle different function inputs and plot them.
 
+
 ## Group Responsibilities
 Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
 
@@ -39,6 +41,7 @@ I will be creating the GUI layout and setting up the inputs for the different pl
 
 ### Emily Seto (svnaptic)
 I will be working on the intermediate step of abstracting data from the gui input, and sending that information to the plot procedures. In addition to this, I will be working with Nick to parse the input data for relevant values to save and to send off for plotting. For the first milestone, I’ll be working on receiving basic user input from gui and storing it. For the second milestone, I’ll be working on coordinating new user inputs with plot. I’ll also be working on rewriting the initial input with a secondary input; in other words, creating state and reformatting objects so that we can allow for updated inputs. For the final milestone, I’ll be working with the finalized set of data input to make sure that everything is being transferred correctly and that the program can also be updated with secondary input. 
+
 
 ## Proposal Presentation Link
 https://docs.google.com/presentation/d/1-gDy_dI0RKrSQPWZTt7XP3W-vjw0YBXTj1qiQGvo1AM/edit?usp=sharing
