@@ -72,10 +72,11 @@ What exactly will be turned in on this day?
 ## Group Responsibilities
 
 ### Charlie S.
-
+ *  I will work on the GUI part of the application which includes the buttons, window and text frame
 ### Taner A.
-
+ *  I will work on part of the GUI as well as putting the project together.
 ### Long T.
+ * I will mostly work on the code functions with bits of the GUI to understand it better.
 
 * All of us on this group project will equally work on code as well as consult with each other when we are working on the code together.
 
