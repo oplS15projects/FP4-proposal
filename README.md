@@ -3,7 +3,7 @@ Project Proposal is due 2015-04-08 at 8am
 
 # Project Title: Goat Lambda (λ)
 ### Problem Statement
-Our regular computer calculators are clunky and aren't expressive enough. Let us break free from that and create a mathematical engine that is simple while being expressive. 
+Regular computer calculators are clunky and aren't expressive enough. Let us break free from that and create a mathematical engine that is simple while being expressive. 
 
 * The current problem we see with most computer calculators is that the user needs to put everything into the calculator one    digit at a time, but why not type it in just as if you were writing it on paper.
 * This problem is interesting because looking at it there is the possibility to create a powerful tool that can be easily       expanded due to the ability to create high level functions and layers of abstraction in the racket environment.
