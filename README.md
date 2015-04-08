@@ -40,6 +40,9 @@ First we will create a working UI that plays very basic sounds. In parallel we w
 
 - Synthesizer will accept input from both the mouse and the keyboard.
 
+### Final Deliverable (05-01)
+ * On this day all of the backend work should be merged with the UI to create the working synthesizer, if it is not already done by the demonstration date.
+
 ## Group Responsibilities
 Here each group member gets a section where they, as an individual, detail what they are responsible for in this
 project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
