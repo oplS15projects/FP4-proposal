@@ -68,34 +68,26 @@ I will become well acquainted with the port audio library to better understand h
 ### Kevin Wacome 
 I will be contributing to the UI by working on the section that allows users to manipulate different sine wave properties to create different audio effects and to emulate the characteritics and timbres of popular instruments, and provide users with a selectable list of audio presets. 
 
-First Milestone:
+##### First Milestone:
 
-Some audio effects will be a lot more challenging than others to implement and some may be beyond the scope of this project. For my first milestone I will research different audio effects and implement procedures that modify the attack, decay and volume of a tone being played.
+  * Some audio effects will be a lot more challenging than others to implement and some may be beyond the scope of this project. For my first milestone I will research different audio effects and implement procedures that modify the attack, decay and volume of a tone being played. Attack is how fast a tone takes from being at a volume of 0 too 100%.
+Decay is how long a note plays clearly before 'dying' out.
 
-Attack: how fast a tone takes from being at a volume of 0 too 100%.
-Decay: how long a note plays clearly before 'dying' out.
-Volume: how loud the note is overall.
+##### Second Milestone:
 
-Second Milestone:
+  * By this day the effects that I implemented on the previous milestone should be UI settings that a user can adjust. I would like to emulate as many effects as I can from the following list:
 
-By this day the effects that I implemented on the previous milestone should be UI settings that a user can adjust.
-I would like to emulate as many effects as I can from the following list:
+    * delay: records an input signal and then plays it back after a period of time.
+    * chorus: individual sounds with roughly the same timbre and nearly the same pitch converge and are played in unison.
+    * flanging: mix two identical signals together, one signal delayed by a small and gradually changing period
+    * harmonzier: setting to allow other notes to be played in unison with the note played by user.
+    * vibrato: a setting that causes the frequency of a wave to shift slightly over its duration.
 
-delay: records an input signal and then plays it back after a period of time.
+  * I will continue to keep researching the characteristics of different types of instruments and keep experimenting with adjusting the properties of sine waves to try and emulate real instruments as best as I can.
 
-chorus: individual sounds with roughly the same timbre and nearly the same pitch converge and are played in unison.
+##### Final Deliverable:
 
-flanging: mix two identical signals together, one signal delayed by a small and gradually changing period
-
-harmonzier: setting to allow other notes to be played in unison with the note played by user.
-
-vibrato: a setting that causes the frequency of a wave to shift slightly over its duration.
-
-I would also like to keep researching the characteristics of different types of instruments and keep experimenting with adjusting the properties of sine waves to try and emulate real instruments as best as I can.
-
-Final Deliverable:
-
-By this date I will have implemented as many effects as I could and the UI will have a selection of different working effects that a user can adjust via the UI. Also it should have a selection of different audio presets that a user can select that attempt to emulate different instrument sounds.
+  * By this date I will have implemented as many effects as I could and the UI will have a selection of different working effects that a user can adjust via the UI. Also it should have a selection of different audio presets that a user can select that attempt to emulate different instrument sounds.
 
 ## Proposal Presentation Link
 
