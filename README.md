@@ -83,4 +83,4 @@ Kaitlyn will input projects into the database; build the UI of the login, projec
 Ravy will create the logo; build the UI of the project selection page, media objects page, as well as contributor key page; and implement iSENSE login as well as uploading media objects.
 
 ## Proposal Presentation Link
-![Presentation](https://docs.google.com/presentation/d/1dsIfek5W0uXWie95RNLjmPFDuw9SvUgawQ5HGWtAzwM/edit?usp=sharing)
+[Presentation](https://docs.google.com/presentation/d/1dsIfek5W0uXWie95RNLjmPFDuw9SvUgawQ5HGWtAzwM/edit?usp=sharing)
