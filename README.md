@@ -1,10 +1,6 @@
 # FP4-proposal
 Project Proposal is due 2015-04-08 at 8am
 
-Produce a plan for your final project, and prepare an in-class presentation.
-
-Ask questions, as always, [on piazza!][piazza]
-
 ## Written Proposal Instructions
 
 Teams will submit ONE written proposal, with sections that each member has done individually detailing their proposed contributions. The submission will be on github, as a pull request of this very file. Below is a template proposal report.
@@ -75,7 +71,7 @@ I hope to have the parsing completed, pulling the relevant information from the 
 I am going to be using the web-server library that the Racket language has to setup a web server and figure out how to pass data from racket variables to templates that have been built by Nick. That is how I'll be contributing to the project. For the first milestone, I will have the web-server running and displaying a dummy page with the basic layout.  For the second milestone, I will have the web-server running and displaying the proper information in the right style, correctly passing information back and forth between the json parsing and the name lookup.
 
 ## Proposal Presentation Link
-insert your google presentation public link here, so with one click it will open up in the browser and you can present.
+https://docs.google.com/presentation/d/1wECtaM1TiYh_EZxkd1fZmXgxsgLs_tUwIU1kCBqC5Ys/edit?usp=sharing
 
 <!-- Links -->
 [piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
