@@ -38,10 +38,7 @@ What exactly will be turned in on this day?
 ## Group Responsibilities
 
 ### Patrick Lehane
-Factoring in momentum on the main character can be something
-
-3. There's also enemy patterns to program. Like, we could have it like in Mario where  some enemies walk off ledges and some enemies don't.
-4. I also think we should have some sort of experience and leveling up system if only to further justify having a save system.
+I will handle enemy movements, enemy collisions with the player, enemy spells/attacks, display of experience & health, and the experience/level system.
 
 ### Andrew Gabriel
 I will write the code for making the player character jump and for detecting collision with the wall and the ground. This will be in time for the first milestone.
