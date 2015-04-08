@@ -1,81 +1,70 @@
 # FP4-proposal
 Project Proposal is due 2015-04-08 at 8am
 
-Produce a plan for your final project, and prepare an in-class presentation.
-
-Ask questions, as always, [on piazza!][piazza]
-
-## Written Proposal Instructions
-
-Teams will submit ONE written proposal, with sections that each member has done individually detailing their proposed contributions. The submission will be on github, as a pull request of this very file. Below is a template proposal report.
-
-You should be proposing something that you have high confidence that you can achieve, and the proposal should project that confidence.
-The proposal should be no longer than necessary, but long enough to include critical detail. Three pages is appropriate. Diagrams are welcome. 
-
-Remember, you can do some neat [formatting things with Markdown.][markdown]
-
-## In-Class Presentation Instructions
-Teams will each deliver an in-class presentation. **Presentations will be Wednesday, April 8** (and Friday, April 10 as necessary). The presentation material is due on April 8 by 9 am for everybody. [See piazza for full schedule.][piazza]
-
-Your team will have two minutes to present. Create presentation with two or three slides. Make the slides in google drive, and share the public-viewable link at the bottom of this report. The day of presentations, I'll have the list of links on the display computer, so each team can simply click their link and begin. 
-
-(Template follows. You may delete this line and all above it. Please edit the following template to create your report.)
-
-# Project Title: title here (10 words maximum)
+# Project Title: Racket-QA
 ### Problem Statement
-Describe your problem, and why it is interesting. 
+
+* Racket has a unit testing library `RackUnit` which can run test cases and test suites, but it seems incomplete as an API from a QA Engineer standpoint and its documentation is poor. We want to create some well-documented user-friendly utilities that a QA Engineer could use in Racket.
+* Someone can use `RackUnit` to run tests, but can't send those results out to a QA team and can't schedule when the tests should be run.
+* Along with encouraging test-driven development, there should also be standards established for documentation. `Racket-Doc` is a component of this project which uses an interactive GUI to extract documentation and user-specified attributes from `.rkt` source files, and save this to file for future preview as well as display it as styled text in web pages.
+* The above three points are the big picture focus, but in our case we are using bottlenose test cases from this course as the basis of individual test suites to run. The problem with the current Perl test cases is that if people want to test their code on the assignments, they have to test one case at a time manually which is tedious and inefficient. Using `RackUnit`, all test cases can run at once and the person sees exactly which cases failed and why; running the Perl test cases just say "not ok" which doesn't give much information, and those scripts take a while to run.
 
 ### Problem Analysis
-Explain what approaches from class you will bring to bear on the problem. Be explicit and succinct.
+
+* Higher-Order-Procedures discussed in class such as map, filter, zip will be used. We also need to keep the substitution model in mind when creating new data from original data.
+* As a team we need to consider what level of abstraction to implement for our project.
+* Techniques to create an object with local state variables and procedures will be used to maintain a database of mailing list entries consisting of names and addresses, as well as procedures to access and modify them.
+* Multiple threads may be necessary to be able to schedule and execute tests with different intervals in parallel.
 
 ### Data set or other source materials
-If you will be working with existing data, where will you get those data from? (Dowload it from a website? access it in a database? create it in a simulation you will build....)
 
-How will you convert that data into a form usable for your project?  
-
-Do your homework here: if you are pulling data from somewhere, actually go download it and look at it. Explain in some detail what your plan is for accomplishing the necessary processing.
-
-If you are using some other starting materails, explain what they are. Basically: anything you plan to use that isn't code.
+* The scripts will be working with existing data from files stored on the computer. This is especially true for `Bottle-Racket`.
+* `Bottle-Racket` takes a source Racket assignment file and a Bottlenose Perl test file from the computer as data. The lines from these files are read as strings, and HOP are used to work with the data as lists of strings. New files will be generated such as the test suite and test area file.
+* `Test-Capture` is a utility that will take the test area files generated from `Bottle-Racket` to create test-running scripts that save test results to file and can be sent out to a team via email.
+* `Racket-Doc` recieves a .rkt file, or a directory containing .rkt source files.  These must be provided by the user (although example test files will be provided).  Also, the resulting documentation is displayed in a web page, so a web browser must be installed (for testing purposes we are using Firefox).
+* `QA-Email` will get the email body from the test results file generated by a test-running script that's used after `Bottle-Racket` creates a test area file.
 
 ### Deliverable and Demonstration
-Explain exactly what you'll have at the end. What will it be able to do at the live demo?
 
-What exactly will you produce at the end of the project? A piece of software, yes, but what will it do? Here are some questions to think about (and answer depending on your application).
-
-Will it run on some data, like batch mode? Will you present some analytical results of the processing? How can it be re-run on different source data?
-
-Will it be interactive? Can you show it working? This project involves a live demo, so interactivity is good.
+* The program `Bottle-Racket` is a GUI that will be able to take a bottlenose assignment file and convert it into a test suite file that is also specified in a generated test area file. Then `Test-Capture` is a GUI used to make a test-running script for that test area file which specifies the test suite to run.
+* In addition to Bottlenose tests, the project will be capable of running a properly formatted `RackUnit` test area with a test suite provided by the user.
+* The project will provide a file containing the results for the test area, and this file can be sent as an email to the development team.
+* The project will provide `Scheduler`, a GUI to schedule a test area to be run automatically with a specified test-running script. This feature is targeted mainly for regression testing of a project involving multiple developers.
+* The project will provide `QA-Email`, a GUI to configure an email database associated with each test area, which will be used to send out a scheduled test result upon the user's request.
+* `Racket-Doc` will be be able to extract "requires", "provides", data, procedure headers, and documentation (specified by the form `#|...documentation here...|#`) from files containing the `.rkt` file extension.  This well be user-specified with a GUI.  The user will be able to specify exactly which features should be extracted.  It will then allow the user to either save this data to a file, or display it in web pages.
 
 ### Evaluation of Results
-How will you know if you are successful? 
-If you include some kind of _quantitative analysis,_ that would be fantastic.
+
+* `Bottle-Racket` will be able to convert the first 3 assignments along with ps5. ps5b's test file will need to be modified since the procedures in 2.57 and 2.58 have the same name and will be duplicate definitions, and ps3a's print test will be changed to not do a print.
+* `Scheduler` will be able to successfully run test-running scripts in consistent intervals, even when the mailing list associated with the test area is updated between consecutive test run-ups and when the source code tested is changed.
+* `QA-Email` will be able to detect when a user enters an incorrect email address or when a database stored in the user's storage is corrupted between the program run-ups, and notify the user of the invalid entries.
+* `Racket-Doc` will be able to successfully extract the user-specified attributes, save it to file, and display it in web pages running on the local host.
 
 ## Work Plan and Schedule
-Explain how you will go from proposal to finished product. Write your general plan here. 
-There are three deliverable milestones to explicitly define, below. The nature of deliverables depend on your project, but may include things like processed data ready for import, core algorithms implemented, interface design prototyped, etc. 
 
-You will be expected to turn in code, documentation, and data (as appropriate) at each of these stages, so take care in writing concrete steps for your schedule. 
+An excel spreadsheet representing a calendar will be used as a planner. Some things to consider:
+* `Scheduler` will be implemented in the Second Milestone.
+* The user doesn't need to specify if the test area loads in a Bottlenose test suite. We already assume the QA Engineer knows how to create test suites and test areas, we are just using Bottlenose tests as the suites. The key is to have properly formatted test area files, and any kind of suite can be run.
 
-In this general plan, and in the deliverables below.
+First Milestone (04-13)
+* `Bottle-Racket` will be able to convert the first 3 assignments along with ps5. ps5b's test file will need to be modified since the procedures in 2.57 and 2.58 have the same name and will be duplicate definitions, and ps3a's print test will be changed to not do a print.
+* Test results can be sent out to the QA Email group by reading in the test result files generated from the test-running scripts created by `Test-Capture`.
+* `Racket-Doc` will be able to extract user-specified attributes from .rkt files, and save them to file.  The web pages should be fully navigable (on a local host), although they will contain hard-coded data.
+* For `QA-Email`, a user interface and file database for managing and storing mailing lists, as well as sending emails with a test result will be fully functional.
 
-### First Milestone (04-13)
-What exactly will be turned in on this day? 
-
-### Second Milestone (04-21)
-What exactly will be turned in on this day? 
+Second Milestone (04-21)
+* `Racket-Doc` will be able successfully port the extracted data to the web pages.
+* The project will be able to run a Bottlenose test or other `RackUnit` test upon users' choice.
+* `Scheduler` will be created and tested with capability to send emails automatically after the scheduled test run-up.
 
 ## Group Responsibilities
-Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
 
-### Susan Scheme
-will write the....
-
-### Leonard Lambda
-will work on...
+* Roy will work on `Bottle-Racket` and `Test-Capture`. Testing of other team members' code to see their progress, and have some involvement with Address Book and Scheduler.
+* Yong will work on test scheduler `Scheduler`, and email component `QA-Email`.
+* James will work on `Racket-Doc`.
 
 ## Proposal Presentation Link
-insert your google presentation public link here, so with one click it will open up in the browser and you can present.
+The [**Racket-QA PowerPoint**][powerpoint] provides some visuals of the concept behind these project components.
 
 <!-- Links -->
-[piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
-[markdown]: https://help.github.com/articles/markdown-basics/
+[powerpoint]: https://docs.google.com/presentation/d/1Ff5LjW92cEDqhPJGla6IjBosKEh1DuKNqqaBsNtIqRg/edit?usp=sharing
