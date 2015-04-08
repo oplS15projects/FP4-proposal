@@ -34,6 +34,13 @@ in the proper order.
 ## Work Plan and Schedule
 The work for the project will be split equally between all three members. The schedule will be made up of our own mini milestones. This will allow us to make sure each component is progressing so that it will meet the larger milestones that have been put in place. 
 
+|   | task | state |
+|---|------|-------|
+| 1 | Create GUI Skeleton | in progress |
+|1.1| Finalize GUI| not started |
+|2| User Input Parser | in progress |
+| 3 | Keyword Linking Table | in progress|
+|4| Keyword Procedures | not started |
 
 ### First Milestone (04-13)
 * The complete GUI layout will be complete and ready to be hooked to the back end processing code.
