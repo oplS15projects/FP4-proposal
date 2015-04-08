@@ -23,10 +23,10 @@ Your team will have two minutes to present. Create presentation with two or thre
 
 # Project Title: Da Dank Decoder
 ### Problem Statement
-Data security is a large topic in computer science. Therefore crpytography is useful in concealing fragile information such as passwords. For example a database of unencrypted passwords. If a hacker were to gain access to this database, they would be able to use the passwords with ease. However, if the passwords were encrypted, the hacker would then have to find a way to decrype the passwords before they could be used. This acts as an extra line of defense against cyber-attacks. Often times encrypting things can prevent any harm from being done, or delaying the 'hacker' from doing any damage before the host realizes that there was a breach.
+Data security is a large topic in computer science. Therefore crpytography is useful in concealing fragile information such as passwords. For example a database of unencrypted passwords. If a hacker were to gain access to this database, they would be able to use the passwords with ease. However, if the passwords were encrypted, the hacker would then have to find a way to decrypet the passwords before they could be used. This acts as an extra line of defense against cyber-attacks. Often times encrypting things can prevent any harm from being done, or delaying the 'hacker' from doing any damage before the host realizes that there was a breach.
 
 ### Problem Analysis
-We will use a lot of higher-order procedures. The basic stratgy of our encryption will be to take the message, convert it to a sequence of characters and then use `map` to manipulate that list.
+We will use a lot of higher-order procedures. The basic stratgy of our encryption will be to take the message, convert it to a list of characters and then use `map` to manipulate that list.
 
 ### Data set or other source materials
 We will use documentation on ciphers, namely the Caear cipher and the Vigenere cipher.
@@ -52,11 +52,11 @@ A test GUI that will decipher caeser and vigenere ciphers.
 GUI which will take password and type of encryption and will allow you to manipulate a bank account.
 
 ## Group Responsibilities
-Tyler: Incharge of GUI for test GUI and bank.
+Tyler: In charge of GUI for test GUI and bank.
 
-Michael: Incharge of Caesar cipher and part of bank code.
+Michael: In charge of Caesar cipher and part of bank code.
 
-Matt: Incharge of Vigenere cipher and part of bank code.
+Matt: In charge of Vigenere cipher and part of bank code.
 
 ## Proposal Presentation Link
 [Google Presentation](https://docs.google.com/presentation/d/1CqUN65wKD8UlQcG6Gpj7xlaJtX4hBMUDCit0NEeUyRY/edit?usp=sharing)
