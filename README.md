@@ -32,9 +32,8 @@ in the proper order.
 
 
 ## Work Plan and Schedule
-The work for the project will be split equaly between all three members. The schedule will be made up of our own mini milestones. This will allow us to make sure each component is progressing so that it will meet the larger milestones that have been put in place. 
+The work for the project will be split equally between all three members. The schedule will be made up of our own mini milestones. This will allow us to make sure each component is progressing so that it will meet the larger milestones that have been put in place. 
 
-In this general plan, and in the deliverables below.
 
 ### First Milestone (04-13)
 * The complete GUI layout will be complete and ready to be hooked to the back end processing code.
