@@ -88,7 +88,7 @@ Will be responsible for the production of results, so will be focusing on (Items
 Together we will integrate our seperate objects into the application. (Items 7 - 7.1)
 
 ## Proposal Presentation Link
-[proposal][proposal]
+[proposal]: https://docs.google.com/presentation/d/1jA6KDpAIbmpuTRilt6YqcnbVv8tDG9p0BZxEkVU0yhk/edit#slide=id.p
 
 <!-- Links -->
 [piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
