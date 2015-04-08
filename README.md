@@ -15,7 +15,7 @@ create sounds.
 This will allow users to more expressively control the RSound library. 
 
 ### Data set or other source materials
-The only things we plan to use that isn't code we've written ourselves is the GUI Toolkit and RSound. 
+We do not plan on using any external data for our project as it is not needed to achieve our goals.  
 
 ### Deliverable and Demonstration
 The final version of our project will, ideally, have an interface for creating various types of sound waves at selected
