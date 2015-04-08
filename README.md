@@ -63,7 +63,7 @@ Web Server & Front end interface integrated, data passed between two cleanly
 Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
 
 ### Nick Lombardi
-For my part, I'll be starting with a deisgn mockup of how the interface will be layed out. That'll be done mostly on paper. After that's been finalized, I'll start putting some thought into colors and opacities. Once that's been decided on by running it by the team, I'll begin coding the front-end of the interface in HTML & CSS. Maybe I'll even throw some JavaScript in there, who knows. A little bit of animation might go a long way for the end user. Once I have the interface completed, I'll be working directly with Ron & Josh to bring this project together.
+For the first milestone, I'll be starting with a deisgn mockup of how the interface will be layed out. That'll be done mostly on paper. After that's been finalized, I'll start putting some thought into colors and opacities. Once that's been decided on by running it by the team, I'll begin coding for the second milestone, getting the front-end of the interface in HTML & CSS. Maybe I'll even throw some JavaScript in there, who knows. A little bit of animation might go a long way for the end user. Once I have the interface completed, I'll be working directly with Ron & Josh to bring this project together.
 
 During this whole process I'll be Project Manager to make sure everything comes together nicely and ends meet. My part will not be solely design, I'll be heavily involved in both other parts.
 
@@ -71,7 +71,7 @@ During this whole process I'll be Project Manager to make sure everything comes 
 For our project, I'm going to be the one responsible for getting and manipulating the data we're displaying.  I'm going to be pulling it from Riot Games' API. This will include stats like KDA, wins, losses, games played, etc. but also more indepth stats, like how well you play a certain champions or particular achievements you've met with them.  I will be taking the input from the website, then santizing it and putting it in a url, then parsing the JSON from that url into relevant chunks, where it will eventually be displayed on the webpage.
 
 ### Ron
-Setup the web server and figure out how to pass data from racket variables to templates that have been built by Nick.
+I am going to be using the web-server library that the Racket language has to setup a web server and figure out how to pass data from racket variables to templates that have been built by Nick. That is how I'll be contributing to the project. For the first milestone, I will have the web-server running and displaying a dummy page with the basic layout.  For the second milestone, I will have the web-server running and displaying the proper information in the right style, correctly passing information back and forth between the json parsing and the name lookup.
 
 ## Proposal Presentation Link
 insert your google presentation public link here, so with one click it will open up in the browser and you can present.
