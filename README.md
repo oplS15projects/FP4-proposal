@@ -1,13 +1,13 @@
 
 # Project Title: Henriette the Witch
 ### Problem Statement
-We will be making a 2D side-scrolling game. Our plan is to get rather involved, including a number of mechanics. Gameplay will include maneuvering around obstacles, attacking enemies using spells, and gaining expeirence points to level up. The ultimate goal of the game is to reach the right side of each stage.
+We will be making a 2D side-scrolling game. Our plan is to get rather involved, including a number of mechanics. Gameplay will include maneuvering around obstacles, attacking enemies using spells, and gaining experience points to level up. The ultimate goal of the game is to reach the right side of each stage.
 
-We will create the game with the 2htdp/universe library. When using the 2htdp/univese library we manipulate what are called “WorldState”s; These “WorldState”s represent the current state of the program and in our program also choose which maps are to be drawn on the screen. The “big-bang” procedure drives the entire program around so that we can have an interactive product; “big-bang” expects us to hand procedures to it that will handle creating new “WorldState”s, key-handlers, and draw procedures. 
+We will create the game with the 2htdp/universe library. When using the 2htdp/universe library we manipulate what are called “WorldState”s; These “WorldState”s represent the current state of the program and in our program also choose which maps are to be drawn on the screen. The “big-bang” procedure drives the entire program around so that we can have an interactive product; “big-bang” expects us to hand procedures to it that will handle creating new “WorldState”s, key-handlers, and draw procedures. 
 Therefore, we need to handle drawing the map, player movement, collisions, etc. so that "big-bang" will know what to do with it when it comes to the next state, every "tick" we have to update all the sprites and map.
 
 ### Problem Analysis
-For this project we will have to make use of higher order procedures such as foldr, map, filter, etc. for when we transition between world states and when we are redrawing the map/level. We will also have to seperate our code into sprites, entities, maps, and our procedures which we hand to "big-bang"; therefore we are building an abstraction barrier between our helper procedures and all of our game data.
+For this project we will have to make use of higher order procedures such as foldr, map, filter, etc. for when we transition between world states and when we are redrawing the map/level. We will also have to separate our code into sprites, entities, maps, and our procedures which we hand to "big-bang"; therefore we are building an abstraction barrier between our helper procedures and all of our game data.
 
 ### Data set or other source materials
 All of our sprites will have to come from a image files which will be saved locally within the game directory. We plan to provide the graphics for the game ourselves, but because programming is our priority, we may end up using graphics from any source online. 
@@ -30,7 +30,7 @@ Once we have created the basic mechanics of the game, we will move on to impleme
 The both of us realize that getting the level to scroll smoothly will likely be challenging so we will make sure this part is completed before moving on. After that we will work on implementing a pause menu with save and resume features.
 
 ### First Milestone (04-13)
-By the first milestone we will have implemented the basic mechanics of the game. This means the user will be able to move right and left and jump. Collision with walls and floors will also be solved at this point. The player will have a visual indicator of how many health points they have. Basic enemies will also be impelmented at this stage and will decrease the players HP on contact. 
+By the first milestone we will have implemented the basic mechanics of the game. This means the user will be able to move right and left and jump. Collision with walls and floors will also be solved at this point. The player will have a visual indicator of how many health points they have. Basic enemies will also be implemented at this stage and will decrease the players HP on contact. 
 
 ### Second Milestone (04-21)
 For the second milestone we should have completely finished the side-scrolling feature so that the user can move right and progress through the game as well as at least one complete stage for the user to play through. Some platforming elements such as falls, traps, and obstacles to avoid will also be built into the maps by this point. The pause menu with the option to save will also be finished.
@@ -45,11 +45,11 @@ For the second milestone, I should have finished enemy movements, the enemy spel
 ### Andrew Gabriel
 I will write the code for making the player character jump and for detecting collision with the wall and the ground. This will be in time for the first milestone.
 
-In time for the second milestone I will have impelmented smooth side-scrolling of levels that are wider than the screen width. I will program the spells that the player character can use, as well as the pause menu. The pause feature will allow you to save and to select spells.
+In time for the second milestone I will have implemented smooth side-scrolling of levels that are wider than the screen width. I will program the spells that the player character can use, as well as the pause menu. The pause feature will allow you to save and to select spells.
 
 ## Proposal Presentation Link
-insert your google presentation public link here, so with one click it will open up in the browser and you can present.
-
+[Presentation][pres]
 <!-- Links -->
+[pres]: https://docs.google.com/presentation/d/1qMK55LT5UqkX7PXKtgqRJgoOyTwPiBrPWBk81P-sovc/edit?usp=sharing
 [piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
 [markdown]: https://help.github.com/articles/markdown-basics/
