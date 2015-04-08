@@ -1,10 +1,6 @@
 # FP4-proposal
 Project Proposal is due 2015-04-08 at 8am
 
-Produce a plan for your final project, and prepare an in-class presentation.
-
-Ask questions, as always, [on piazza!][piazza]
-
 ## Written Proposal Instructions
 
 Teams will submit ONE written proposal, with sections that each member has done individually detailing their proposed contributions. The submission will be on github, as a pull request of this very file. Below is a template proposal report.
@@ -21,34 +17,25 @@ Your team will have two minutes to present. Create presentation with two or thre
 
 (Template follows. You may delete this line and all above it. Please edit the following template to create your report.)
 
-# Project Title: title here (10 words maximum)
+# Project Title: League of Legends API
 ### Problem Statement
-Describe your problem, and why it is interesting. 
+If you take a look around your classroom, whether you be the teacher or a student, it is overwhelmingly likely that there is a solid chunk of people in that very classroom that play the game League of Legends. Easily the most popular game in the world, with a world tournament with more watches than the World Series or NBA finals, those statistics really aren't that surprising. Speaking of statistics, wouldn't you like to know how well you've been doing in your games? Luckily Riot Games provides an API of which can be manipulated to crunch those numbers and display exactly that information.
+
+Apart from that, Nick planned on building something like this in PHP for his own site anyways. Might as well build it in Racket and get class credit, as well as get to present it to the class and work with a team.
 
 ### Problem Analysis
-Explain what approaches from class you will bring to bear on the problem. Be explicit and succinct.
+Well the obvious approach is the utilization of the Scheme programming language, specifically Racket. We will be utilizing two libraries to achieve our end result. Something that will be heavily used is abstraction. We're hoping to abstract all HTML and front-end interface out from the logic, thus achieving a separation of concerns.
 
 ### Data set or other source materials
-If you will be working with existing data, where will you get those data from? (Dowload it from a website? access it in a database? create it in a simulation you will build....)
+We will be utilizing the Riot API to pull player data and game data to display statistics on a web page. The primary trick is grabbing the data and manipulating it to get what we want. An example is to get a players rank, it's not simply a single query, you have to search for them within the League that they are in, and then return their rank from there. It's actually kind of unnecessarily difficult, but will be achieved nonetheless.
 
-How will you convert that data into a form usable for your project?  
-
-Do your homework here: if you are pulling data from somewhere, actually go download it and look at it. Explain in some detail what your plan is for accomplishing the necessary processing.
-
-If you are using some other starting materails, explain what they are. Basically: anything you plan to use that isn't code.
+All data pulled from the API is simply returned as strings and is easy to display once we actually retrieve it. The API is well documented, and RESTful.
 
 ### Deliverable and Demonstration
-Explain exactly what you'll have at the end. What will it be able to do at the live demo?
-
-What exactly will you produce at the end of the project? A piece of software, yes, but what will it do? Here are some questions to think about (and answer depending on your application).
-
-Will it run on some data, like batch mode? Will you present some analytical results of the processing? How can it be re-run on different source data?
-
-Will it be interactive? Can you show it working? This project involves a live demo, so interactivity is good.
+The statistics application will have a front end web page interface. Thus to display our project, we simply need to boot up the program on the main screen, and we'll have our web page running on our racket web server. From there, it's highly likely we'll run a few test examples on some summoner names from the crowd, that is if anyone is brave enough to display their player statistics on the main screen for everyone to see.
 
 ### Evaluation of Results
-How will you know if you are successful? 
-If you include some kind of _quantitative analysis,_ that would be fantastic.
+We will know if we are successful if the application retreives the data quickly, and displays it even quicker. No output from the API should break the structure of the web page and if the API is down at the time of query, then an error message should be displayed. It is however unlikely that the API will be down at all. A lot of web services rely on it being up.
 
 ## Work Plan and Schedule
 Explain how you will go from proposal to finished product. Write your general plan here. 
@@ -59,22 +46,32 @@ You will be expected to turn in code, documentation, and data (as appropriate) a
 In this general plan, and in the deliverables below.
 
 ### First Milestone (04-13)
-What exactly will be turned in on this day? 
+Front end interface design draft (not coded)
+API JSON Parser
+Web Server Program
 
 ### Second Milestone (04-21)
-What exactly will be turned in on this day? 
+Front end interface coded
+API JSON Data Wrapper Built (Maybe)
+Web Server & Front end interface integrated, data passed between two cleanly
 
 ## Group Responsibilities
 Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
 
-### Susan Scheme
-will write the....
+### Nick Lombardi
+For the first milestone, I'll be starting with a design mockup of how the interface will be layed out. That'll be done mostly on paper. After that's been finalized, I'll start putting some thought into colors and opacities. Once that's been decided on by running it by the team, I'll begin coding for the second milestone, getting the front-end of the interface in HTML & CSS. Maybe I'll even throw some JavaScript in there, who knows. A little bit of animation might go a long way for the end user. Once I have the interface completed, I'll be working directly with Ron & Josh to bring this project together.
 
-### Leonard Lambda
-will work on...
+During this whole process I'll be making sure everything comes together nicely and ends meet. My part will not be solely design, I'll be keeping us moving towards the end-goal.
+
+### Joshua Semedo
+For our project, I'm going to be the one responsible for getting and manipulating the data we're displaying.  I'm going to be pulling it from Riot Games' API. This will include stats like KDA, wins, losses, games played, etc. but also more indepth stats, like how well you play a certain champions or particular achievements you've met with them.  I will be taking the input from the website, then santizing it and putting it in a url, then parsing the JSON from that url into relevant chunks, where it will eventually be displayed on the webpage.
+I hope to have the parsing completed, pulling the relevant information from the JSON and putting it into variables, for the first milestone, and for the second I aim to analyze the variables, and return text based on the stats(ex. if they have a good KDA, "KDA: 3.5, Above average!" or "Your high kills and high deaths suggest an aggressive playstyle; try playing safer")
+
+### Ron
+I am going to be using the web-server library that the Racket language has to setup a web server and figure out how to pass data from racket variables to templates that have been built by Nick. That is how I'll be contributing to the project. For the first milestone, I will have the web-server running and displaying a dummy page with the basic layout.  For the second milestone, I will have the web-server running and displaying the proper information in the right style, correctly passing information back and forth between the json parsing and the name lookup.
 
 ## Proposal Presentation Link
-insert your google presentation public link here, so with one click it will open up in the browser and you can present.
+https://docs.google.com/presentation/d/1wECtaM1TiYh_EZxkd1fZmXgxsgLs_tUwIU1kCBqC5Ys/edit?usp=sharing
 
 <!-- Links -->
 [piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
