@@ -9,7 +9,7 @@ Regular computer calculators are clunky and aren't expressive enough. Let us bre
 * This problem is interesting because looking at it there is the possibility to create a powerful tool that can be easily       expanded due to the ability to create high level functions and layers of abstraction in the racket environment.
 
 ### Problem Analysis
-* We plan to make different lays of abstraction so that the code can be very easily built on.
+* We plan to make different layers of abstraction so that the code can be very easily built on.
 * We also plan to build objects that allow us to link the key words to their respective procedures.
 * The high order procedures that we have covered in class such as filter and map will be used to handle searching and limiting   the data structures.
 
@@ -18,9 +18,9 @@ Regular computer calculators are clunky and aren't expressive enough. Let us bre
 * The data that the user has supplied to the program is then sent through a parser that breaks it apart and passes down to the handler to be processed.
 
 ### Deliverable and Demonstration
-* The goal is to have a program that is simple , powerful and easy to build upon. Simple in terms that it allows the user to enter there expression without the need of worrying about what buttons to press or what order it is needed to be entered. The power of the program will come from the ease at which the program can be expanded on to add new math functions.   
-* During the demonstration the goal is to let the programs ease of use be the focal point. To do this people will be able to come to the system and take it for a spin by trying out there favorite math expression.  
-* Also at the demonstration a example of how to add functionality to the program will be shown  so that users can get a sense of how simple it is for them to build on the platform.
+* The goal is to have a program that is simple , powerful and easy to build upon. Simple in terms that it allows the user to enter their expression without the need of worrying about what buttons to press or what order it is needed to be entered. The power of the program will come from the ease at which the program can be expanded on to add new math functions.   
+* During the demonstration the goal is to let the programs ease of use be the focal point. To do this people will be able to come to the system and take it for a spin by trying out their favorite math expression.  
+* Also at the demonstration, an example of how to add functionality to the program will be shown  so that users can get a sense of how simple it is for them to build on the platform.
 
 ### Evaluation of Results
 * We are able to input controlled math expressions that have known results that we have calculated by hand.
@@ -38,7 +38,7 @@ The work for the project will be split equally between all three members. The sc
 ### First Milestone (04-13)
 * The complete GUI layout will be complete and ready to be hooked to the back end processing code.
 * The parsing of user input will be complete and functional.
-* The look up table needed to link the user input to the processing procedures will be complete.
+* The lookup table needed to link the user input to the processing procedures will be complete.
 
 ### Second Milestone (04-21)
 * Create procedure needed for the plot/graph keyword.
@@ -47,7 +47,7 @@ The work for the project will be split equally between all three members. The sc
 * Add more keywords/procedures as long as time permits.
 
 ## Group Responsibilities
-Below is a break down of what each person is in charge of during the project. This will be added to as we add mroe features to Lambda ( λ )
+Below is a breakdown of what each person is in charge of during the project. This will be added to as we add more features to Lambda ( λ )
 
 ### Joshua Caravetta
 ##### First Milestone:
@@ -81,3 +81,5 @@ Below is a break down of what each person is in charge of during the project. Th
 [piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
 [markdown]: https://help.github.com/articles/markdown-basics/
 [Goat-Lambda]:https://docs.google.com/presentation/d/16Rdq3k_QRaX8tFefR1sQdzLVkyQ6EENQuHVDwc9Axak/edit#slide=id.gad3b04a0b_0_7
+
+
