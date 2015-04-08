@@ -1,34 +1,17 @@
 # FP4-proposal
-Project Proposal is due 2015-04-08 at 8am
 
-Produce a plan for your final project, and prepare an in-class presentation.
-
-Ask questions, as always, [on piazza!][piazza]
-
-## Written Proposal Instructions
-
-Teams will submit ONE written proposal, with sections that each member has done individually detailing their proposed contributions. The submission will be on github, as a pull request of this very file. Below is a template proposal report.
-
-You should be proposing something that you have high confidence that you can achieve, and the proposal should project that confidence.
-The proposal should be no longer than necessary, but long enough to include critical detail. Three pages is appropriate. Diagrams are welcome. 
-
-Remember, you can do some neat [formatting things with Markdown.][markdown]
-
-## In-Class Presentation Instructions
-Teams will each deliver an in-class presentation. **Presentations will be Wednesday, April 8** (and Friday, April 10 as necessary). The presentation material is due on April 8 by 9 am for everybody. [See piazza for full schedule.][piazza]
-
-Your team will have two minutes to present. Create presentation with two or three slides. Make the slides in google drive, and share the public-viewable link at the bottom of this report. The day of presentations, I'll have the list of links on the display computer, so each team can simply click their link and begin. 
-
-(Template follows. You may delete this line and all above it. Please edit the following template to create your report.)
-
-# Project Title: title here (10 words maximum)
+# Project Title: Dr. Match-it
 ### Problem Statement
-Describe your problem, and why it is interesting. 
+Racket lends itself particularly well to creating rules for a card-matching game. Using the `cards` and `rsound` libraries, we can programmatically create matched pairs (or larger sets) of cards which have unique characteristics that are reconciled within each pair or set.
 
 ### Problem Analysis
+<!--
 Explain what approaches from class you will bring to bear on the problem. Be explicit and succinct.
+-->
+This project will rely heavily on the object-oriented facilities of Racket which we were introduced to in the lecture. The `cards` library uses local state to maintain the state of the game through the card table, and we will extend the card objects to keep track of the sound(s) they must play in response to particular gameplay events.
 
 ### Data set or other source materials
+<!--
 If you will be working with existing data, where will you get those data from? (Dowload it from a website? access it in a database? create it in a simulation you will build....)
 
 How will you convert that data into a form usable for your project?  
@@ -36,46 +19,66 @@ How will you convert that data into a form usable for your project?
 Do your homework here: if you are pulling data from somewhere, actually go download it and look at it. Explain in some detail what your plan is for accomplishing the necessary processing.
 
 If you are using some other starting materails, explain what they are. Basically: anything you plan to use that isn't code.
+-->
+We will design any assets which we cannot (or decide not to) define in code externally. Currently, we plan to design custom faces for our cards in Photoshop, which can be brought in as bitmaps. Additionally, some primitive sounds may be generated in Audacity if they cannot be adequately modeled by a generator procedure. These will be imported using the file I/O capabilities of the `rsound` library, and filtered to achieve the desired sound using the filter procedures we write.
 
 ### Deliverable and Demonstration
-Explain exactly what you'll have at the end. What will it be able to do at the live demo?
-
-What exactly will you produce at the end of the project? A piece of software, yes, but what will it do? Here are some questions to think about (and answer depending on your application).
-
-Will it run on some data, like batch mode? Will you present some analytical results of the processing? How can it be re-run on different source data?
-
-Will it be interactive? Can you show it working? This project involves a live demo, so interactivity is good.
+Our live demonstration will feature the playable matching game, with players winning upon successfully matching all corresponding cards. We plan to shuffle the cards after a set number of incorrect guesses in lieu of a firm lose condition. The player's score will be calculated using failed attempts, as well as how long it took to find all of the matches.
 
 ### Evaluation of Results
-How will you know if you are successful? 
-If you include some kind of _quantitative analysis,_ that would be fantastic.
+How will you know if you are successful?
+The purpose of a game is to entertain. As such, our success will depend largely on our ability to offer an entertaining experience through our core gameplay and audiovisual feedback features.
 
 ## Work Plan and Schedule
-Explain how you will go from proposal to finished product. Write your general plan here. 
-There are three deliverable milestones to explicitly define, below. The nature of deliverables depend on your project, but may include things like processed data ready for import, core algorithms implemented, interface design prototyped, etc. 
+<!--
+Explain how you will go from proposal to finished product. Write your general plan here.
+There are three deliverable milestones to explicitly define, below. The nature of deliverables depend on your project, but may include things like processed data ready for import, core algorithms implemented, interface design prototyped, etc.
 
-You will be expected to turn in code, documentation, and data (as appropriate) at each of these stages, so take care in writing concrete steps for your schedule. 
+You will be expected to turn in code, documentation, and data (as appropriate) at each of these stages, so take care in writing concrete steps for your schedule.
 
 In this general plan, and in the deliverables below.
+-->
+### General Plan:
+
+* Create scramble feature.
+* Determine how to create matches.
+* Begin point system using matches.
+* Determine how to keep time.
+* Create a final point system based on time, matches and mismatches.
+* Design primitive sound generators and filters
+* Synthesize final sounds through combination and filtering of primitives
 
 ### First Milestone (04-13)
-What exactly will be turned in on this day? 
+* Have the scramble feature working for a set number of cards.
+* Determine how to create matches.
+* Begin to determine the point values for each element of the final score, and how it will be calculated.
+* Initial set of primitive sound generators completed
+* One or more filters completed
+* Some, if not all, card faces designed
 
 ### Second Milestone (04-21)
-What exactly will be turned in on this day? 
+* Integration of scramble feature with the rest of the game.
+* Completed scoring system.
+* Sound integration figured out with some sounds added to card objects and usable in-game
 
 ## Group Responsibilities
+<!--
 Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
+-->
 
-### Susan Scheme
-will write the....
+### Alex Li
+Will be responsible for initializing the board state, as well as implementing the match checking system. The match checking system will called upon anytime there are two face up cards on the board. If the two cards are matching they will be removed, otherwise they will be flipped back down. Since this would be an ideal place to put any scoring procedures, I will also be working with other members on how to implement the scoring system.
 
-### Leonard Lambda
-will work on...
+### Pat Quaratiello
+Will be working on creating the scramble feature after there are several (possibly 5 - we'll need to test what is reasonable) failed attempts at matching cards. I will also be working on the point system with the help of the other members to determine how we can incorporate both missed matches and time into your total score, as well as successful matches.
+
+### Peter Welby
+Will work primarily on building the sound effect system in `rsound`. This includes writing generators for primitive sounds, combining and filtering these primitives to create more interesting sounds for use in the game, and integrating these sounds with the core gameplay functionality. Additionally, I will design the custom card faces to be used in the game.
 
 ## Proposal Presentation Link
-insert your google presentation public link here, so with one click it will open up in the browser and you can present.
+[Google Slides Presentation][presentation]
 
 <!-- Links -->
 [piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
 [markdown]: https://help.github.com/articles/markdown-basics/
+[presentation]: https://docs.google.com/presentation/d/1RS-RpMVcs_PuakTo_GzXePOPTVv_1goc3mxZHn5pIWY/edit?usp=sharing
