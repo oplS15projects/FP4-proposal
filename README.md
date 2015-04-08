@@ -46,7 +46,7 @@ Here each group member gets a section where they, as an individual, detail what 
 - Uploading the characters from the HDTP/PlanetCute library
 
 ## Proposal Presentation Link
-insert your google presentation public link here, so with one click it will open up in the browser and you can present.
+https://docs.google.com/presentation/d/1rJbENX2HMqLwK012Huu0krBOsf2r1Fk0m8GWdhNJ_0g/edit?usp=sharing
 
 <!-- Links -->
 [piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
