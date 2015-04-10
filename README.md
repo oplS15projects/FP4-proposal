@@ -1,3 +1,36 @@
+# Project Title: Card game - higher or lower
+### Problem Statement
+We intend to demonstrate cards library functionality using a simplified  cards game called war.
+### Problem Analysis
+•Data abstraction will used to manipulate the cards.
+• games/cards racket/gui racket/unit libraries will be used for implementing functions and sub functions
+
+### Data set or other source materials
+No external datasets used for this project
+### Deliverable and Demonstration
+The deliverables will be code and working application. The interactive game will be demonstrated for its functionality
+### Evaluation of Results
+Ability to executre the application without errors.
+## Work Plan and Schedule
+We are exploring  games/cards, racket/gui and racket/unit libraries. We will use features combined from different card games including memory, gofish and aces.
+Once we understand how a library procedure is implemented based on the documentation and the example game, we will implement a modified version of it in our game.
+### First Milestone (04-13)
+We will deliver the conceptual document with high level overview of the application.
+### Second Milestone (04-21)
+Completed code displaying the screen with primitive functionality of deal and drawing cards.
+## Group Responsibilities
+We are a 2 member team and will have shared responsibilities for the code and documentation. We both would like to learn functions from the cards/games library and share.
+### Anand Surisetti
+will work on coding, testing and documentation.
+### Liuchen Ye
+will work on coding and testing.
+## Proposal Presentation Link
+https://docs.google.com/presentation/d/1DuJZvR9CBHyPtj7ZNsOy1agd6URNvd02625h4xW4jlM/pub?start=false&loop=false&delayms=60000&slide=id.p
+<!-- Links -->
+[piazza]: https://piazza.com/class/i55is8xqqwhmr?cid=453
+[markdown]: https://help.github.com/articles/markdown-basics/
+
+
 # FP4-proposal
 Project Proposal is due 2015-04-08 at 8am
 
